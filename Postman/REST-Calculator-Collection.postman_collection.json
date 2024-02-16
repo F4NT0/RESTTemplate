@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "e6f9cd66-e8af-4882-adb9-7fc831651136",
+		"name": "REST-Calculator-Collection",
+		"description": "Essa coleção de Requisições para o projeto de exemplo de REST criado em .NET com ASP.NET do curso do udemy.\n\nLink do Curso: [REST API's RESTFul do 0 à Azure com ASP.NET 8 e 5 e Docker](https://delldigital.udemy.com/course/restful-apis-do-0-a-nuvem-com-aspnet-core-e-docker/learn/lecture/22577534#overview)\n\nLink do Repositório no Github: [RESTTemplate: Exemplo inicial de uma API REST em C#](https://github.com/F4NT0/RESTTemplate)\n\n## Rotas\n\n**GET**\n\n- localhost:5110/calculator/sum/1/1 - esperado **2**\n- localhost:5110/calculator/sub/1/1 - esperado **0**\n- localhost:5110/calculator/mult/1/1 - esperado **1**\n- localhost:5110/calculator/div/4/2 - esperado **2**",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26401906"
+	},
+	"item": [
+		{
+			"name": "Soma",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response body is 2 (1 + 1 = 2)\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"2\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Localhost}}/calculator/sum/1/1",
+					"host": [
+						"{{Localhost}}"
+					],
+					"path": [
+						"calculator",
+						"sum",
+						"1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subtração",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response body is 0 (1 - 1 = 0)\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"0\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Localhost}}/calculator/sub/1/1",
+					"host": [
+						"{{Localhost}}"
+					],
+					"path": [
+						"calculator",
+						"sub",
+						"1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiplicação",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response body is 1 (1 x 1 = 1)\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"1\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Localhost}}/calculator/mult/1/1",
+					"host": [
+						"{{Localhost}}"
+					],
+					"path": [
+						"calculator",
+						"mult",
+						"1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Divisão",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response body is 2 (4 / 2 = 2)\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"2\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Localhost}}/calculator/div/4/2",
+					"host": [
+						"{{Localhost}}"
+					],
+					"path": [
+						"calculator",
+						"div",
+						"4",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
