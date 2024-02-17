@@ -25,6 +25,7 @@ namespace RESTTemplate.Controllers
             if (IsNumeric(firstNumber) && IsNumeric(secondNumber)) // valida se são dois valores numéricos
             {
                 var sum = ConvertToDecimal(firstNumber) + ConvertToDecimal(secondNumber);
+                _logger.LogInformation($"Resultado da soma: {sum}");
                 return Ok(sum.ToString()); // Envia um OK 200 e o valor somado
             }
 
@@ -36,17 +37,16 @@ namespace RESTTemplate.Controllers
          * HTTP GET (READ) SUBTRACTION NUMBERS
          * -----------------------------------
         */
-        [HttpGet("sub/{firstNumber}/{secondNumber}")] // Rota que vai ser chamada do request GET da nossa API REST
-        public IActionResult Sub(string firstNumber, string secondNumber) // vai pegar os dois atributos passados pelo parâmetros
+        [HttpGet("sub/{firstNumber}/{secondNumber}")]
+        public IActionResult Sub(string firstNumber, string secondNumber)
         {
-            // Lógica de soma de dois números entrados como parâmetros na request
-            if (IsNumeric(firstNumber) && IsNumeric(secondNumber)) // valida se são dois valores numéricos
+            if (IsNumeric(firstNumber) && IsNumeric(secondNumber)) 
             {
                 var sub = ConvertToDecimal(firstNumber) - ConvertToDecimal(secondNumber);
-                return Ok(sub.ToString()); // Envia um OK 200 e o valor somado
+                return Ok(sub.ToString());
             }
 
-            return BadRequest("Error! Invalid Input"); // Caso de um 400 BAD REQUEST ele mostra essa mensagem
+            return BadRequest("Error! Invalid Input");
         }
 
         /*
