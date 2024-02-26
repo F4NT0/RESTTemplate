@@ -1,19 +1,19 @@
-﻿namespace RESTTemplate.Model
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace RESTTemplate.Model
 {
-    /*
-     * ------------------------
-     *  MODEL DO OBJETO PERSON
-     * ------------------------
-     * Primeiro passo na criação de uma API REST
-     * class: Aqui estão os objetos e atributos necessários para definir uma pessoa
-     * Documentação de uso se encontra no vault do obsidian no Github: https://github.com/F4NT0/CSharp_Dotnet
-     */
+    [Table("persons")]
     public class Person
     {
+        [Column("person_id")]
         public long Id { get; set; }
+        [Column("first_name")]
         public string FirstName { get; set; }
+        [Column("last_name")]
         public string LastName { get; set; }
+        [Column("address")]
         public string Address { get; set; }
+        [Column("gender")]
         public string Gender { get; set; }
     }
 }
