@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "76e62d8a-a18f-4204-8d76-74edc42148b9",
+		"name": "RESTTemplate",
+		"description": "Essa Coleção de Requisições fazem parte do projeto RESTTemplate para ensinar como construir uma API REST usando ASP.NET, abaixo se encontram mais informações de todas as requisições criadas para este exemplo.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26401906"
+	},
+	"item": [
+		{
+			"name": "Create Person",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validate ID\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.firstName).to.eql(\"Gabriel\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validate ID\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.globals.set(\"Person Id\", jsonData.id);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"FirstName\": \"Gabriel\",\r\n    \"LastName\": \"Fanto\",\r\n    \"Address\": \"Porto Alegre\",\r\n    \"Gender\": \"Male\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Localhost}}/api/person",
+					"host": [
+						"{{Localhost}}"
+					],
+					"path": [
+						"api",
+						"person"
+					]
+				},
+				"description": "Localhost = Variável pegando o valor do Enviroment **RESTTemplate Enviroment** para termos as rotas padrões para todas as requisições.\n\nValor do Localhost hoje: {{Localhost}}\n\nApós criar um objeto Person, ele salva o ID para ser utilizado em outras requisições, é criado uma variável global chamado **Person Id**.\n\n## Testes\n\n1. Esperado resultado 200 OK\n2. Salva o ID apresentado na Response na Variável Global **Person Id** que será utilizado por todas as outras requisições."
+			},
+			"response": []
+		},
+		{
+			"name": "Read Person By ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validate ID\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"Person Id\"));\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Localhost}}/api/person/{{Person Id}}",
+					"host": [
+						"{{Localhost}}"
+					],
+					"path": [
+						"api",
+						"person",
+						"{{Person Id}}"
+					]
+				},
+				"description": "Localhost = Variável pegando o valor do Enviroment **RESTTemplate Enviroment** para termos as rotas padrões para todas as requisições.\n\nValor do Localhost hoje: {{Localhost}}\n\n{{Person Id}} = Variável criada globalmente pela requisição **Create Person**.\n\nApós criado um objeto Person, ele é buscado pelo banco usando o ID criado na requisição `Create Person`\n\n## Testes\n\n1. Esperado resultado 200 OK\n2. Verificando se o ID do Response é o mesmo da Variável Global **Person Id**"
+			},
+			"response": []
+		},
+		{
+			"name": "Read All Persons",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Localhost}}/api/person/",
+					"host": [
+						"{{Localhost}}"
+					],
+					"path": [
+						"api",
+						"person",
+						""
+					]
+				},
+				"description": "Localhost = Variável pegando o valor do Enviroment **RESTTemplate Enviroment** para termos as rotas padrões para todas as requisições.\n\nValor do Localhost hoje: {{Localhost}}\n\nApós criado um objeto Person, ele é buscado pelo banco usando o ID criado na requisição `Create Person`\n\n## Testes\n\n1. Esperado resultado 200 OK\n    \n2. Verificando se o ID do Response é o mesmo da Variável Global **Person Id**"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Person",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validate ID\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"Person Id\"));\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": \"{{Person Id}}\",\r\n    \"FirstName\": \"Liliane\",\r\n    \"LastName\": \"Clemente\",\r\n    \"Address\": \"Porto Alegre\",\r\n    \"Gender\": \"Female\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Localhost}}/api/person/",
+					"host": [
+						"{{Localhost}}"
+					],
+					"path": [
+						"api",
+						"person",
+						""
+					]
+				},
+				"description": "Localhost = Variável pegando o valor do Enviroment **RESTTemplate Enviroment** para termos as rotas padrões para todas as requisições.\n\nValor do Localhost hoje: {{Localhost}}\n\nEssa requisição recebe um objeto Person completo com um ID junto, dessa forma ele busca o objeto salvo no banco de dados e altera ele pelos dados entrados pelo **Body** do Postman.\n\n## Testes\n\n1. Esperado resultado 200 OK\n    \n2. Verifica se o ID retornado é o mesmo que se encontra na Variável Global chamada **Person Id.**"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Person By ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 204\", function () {\r",
+							"    pm.response.to.have.status(204);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Remove ID saved\", function () {\r",
+							"    pm.globals.clear();\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{Localhost}}/api/person/{{Person Id}}",
+					"host": [
+						"{{Localhost}}"
+					],
+					"path": [
+						"api",
+						"person",
+						"{{Person Id}}"
+					]
+				},
+				"description": "Localhost = Variável pegando o valor do Enviroment **RESTTemplate Enviroment** para termos as rotas padrões para todas as requisições.\n\nValor do Localhost hoje: {{Localhost}}\n\nEssa requisição recebe um ID que está salvo na variável global **Person Id** que foi definido pela requisição **Create Person** e busca no banco de dados um objeto que possui esse ID e o remove do banco de dados.\n\n## Testes\n\n1. Esperado resultado 204 No Content\n    \n2. Limpa todas as variáveis Globais criadas durante o Run dessas requisições."
+			},
+			"response": []
+		}
+	]
+}
