@@ -1,19 +1,18 @@
 ﻿using RESTTemplate.Model;
 using RESTTemplate.Model.Context;
-using System;
 
-namespace RESTTemplate.Services.Implementations
+namespace RESTTemplate.Repository.Implementations
 {
-    public class PersonServiceImplementation : IPersonService
+    public class PersonRepositoryImplementation : IPersonRepository
     {
-
         private SQLiteContext _context;
 
-        public PersonServiceImplementation(SQLiteContext context)
-        {
-            _context = context;
+        public PersonRepositoryImplementation(SQLiteContext context) 
+        { 
+            _context = context; 
         }
 
+        
         public Person Create(Person person)
         {
             try
@@ -46,19 +45,16 @@ namespace RESTTemplate.Services.Implementations
             }
         }
 
-        
         public List<Person> FindAll()
         {
-           return _context.Persons.ToList();
+            return _context.Persons.ToList();
         }
 
-        
         public Person FindbyID(long id)
         {
             return _context.Persons.SingleOrDefault(p => p.Id.Equals(id));
         }
 
-        
         public Person Update(Person person)
         {
             if (!Exists(person.Id)) return new Person();
@@ -80,8 +76,7 @@ namespace RESTTemplate.Services.Implementations
             return person;
         }
 
-        
-        private bool Exists(long id)
+        public bool Exists(long id)
         {
             return _context.Persons.Any(p => p.Id.Equals(id));
         }

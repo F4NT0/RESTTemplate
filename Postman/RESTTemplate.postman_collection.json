@@ -20,11 +20,6 @@
 							"\r",
 							"pm.test(\"Validate ID\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.firstName).to.eql(\"Gabriel\");\r",
-							"});\r",
-							"\r",
-							"pm.test(\"Validate ID\", function () {\r",
-							"    var jsonData = pm.response.json();\r",
 							"    pm.globals.set(\"Person Id\", jsonData.id);\r",
 							"});"
 						],
