@@ -1,5 +1,7 @@
-﻿using RESTTemplate.Model;
+﻿using Microsoft.EntityFrameworkCore;
+using RESTTemplate.Model;
 using RESTTemplate.Model.Context;
+using RESTTemplate.Repository;
 using System;
 
 namespace RESTTemplate.Services.Implementations
@@ -7,83 +9,38 @@ namespace RESTTemplate.Services.Implementations
     public class PersonServiceImplementation : IPersonService
     {
 
-        private SQLiteContext _context;
+        private readonly IPersonRepository _repository;
 
-        public PersonServiceImplementation(SQLiteContext context)
+        public PersonServiceImplementation(IPersonRepository personRepository)
         {
-            _context = context;
+            _repository = personRepository;
         }
 
         public Person Create(Person person)
         {
-            try
-            {
-                _context.Add(person);
-                _context.SaveChanges();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            return person;
+            return _repository.Create(person);
+        }
+
+        public Person Update(Person person)
+        {
+           return _repository.Update(person);
         }
 
         public void Delete(long id)
         {
-            var result = _context.Persons.SingleOrDefault(p => p.Id.Equals(id));
-
-            if (result != null)
-            {
-                try
-                {
-                    _context.Persons.Remove(result);
-                    _context.SaveChanges();
-                }
-                catch (Exception)
-                {
-                    throw;
-                }
-            }
+            _repository.Delete(id);
         }
 
         
         public List<Person> FindAll()
         {
-           return _context.Persons.ToList();
+           return _repository.FindAll();
         }
 
         
         public Person FindbyID(long id)
         {
-            return _context.Persons.SingleOrDefault(p => p.Id.Equals(id));
-        }
-
-        
-        public Person Update(Person person)
-        {
-            if (!Exists(person.Id)) return new Person();
-
-            var result = _context.Persons.SingleOrDefault(p => p.Id.Equals(person.Id));
-
-            if (result != null)
-            {
-                try
-                {
-                    _context.Entry(result).CurrentValues.SetValues(person);
-                    _context.SaveChanges();
-                }
-                catch (Exception)
-                {
-                    throw;
-                }
-            }
-            return person;
-        }
-
-        
-        private bool Exists(long id)
-        {
-            return _context.Persons.Any(p => p.Id.Equals(id));
+            return _repository.FindbyID(id);
         }
     }
 }

@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using RESTTemplate.Model.Context;
+using RESTTemplate.Repository;
+using RESTTemplate.Repository.Implementations;
 using RESTTemplate.Services;
 using RESTTemplate.Services.Implementations;
 
@@ -26,11 +28,12 @@ builder.Services.AddDbContext<SQLiteContext>(options => options.UseSqlite(connec
  *  INJEÇÃO DE DEPENDÊNCIAS
  * -------------------------
  * 
- * Aqui iremos colocar os Services e suas Implementations
- * para ser usado pela API REST
+ * Aqui iremos colocar os Services e suas Implementations.
+ * Aqui iremos colocar os Repositorys e suas Implementations.
  */
 
 builder.Services.AddScoped<IPersonService, PersonServiceImplementation>();
+builder.Services.AddScoped<IPersonRepository, PersonRepositoryImplementation>();
 
 var app = builder.Build();
 
