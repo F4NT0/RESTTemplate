@@ -17,5 +17,7 @@
   "obsidian-prism-theme@@h6-text-color-dt": "var(--color-red-text)",
   "obsidian-prism-theme@@text-bold-color-dt": "var(--color-blue-text)",
   "obsidian-prism-theme@@text-italic-color-dt": "var(--color-cyan-text)",
-  "obsidian-prism-theme@@link-internal-color-dt": "var(--color-purple-text-hsl)"
+  "obsidian-prism-theme@@link-internal-color-dt": "var(--color-purple-text-hsl)",
+  "obsidian-prism-theme@@pt-font-disable-ligatures": true,
+  "obsidian-prism-theme@@file-line-width": 715
 }
