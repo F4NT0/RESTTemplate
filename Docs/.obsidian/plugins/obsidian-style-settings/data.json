@@ -3,5 +3,10 @@
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-green",
   "catppuccin-icon-styles@@ctp-icon-hide": true,
   "catppuccin-interface-styles@@ctp-bold-folder-title": true,
-  "catppuccin-heading-settings@@ctp-h1": "var(--ctp-green)"
+  "catppuccin-heading-settings@@ctp-h1": "var(--ctp-green)",
+  "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-raven-dt",
+  "obsidian-prism-theme@@color-scheme-style-dt": "pt-color-scheme-style-two-tone-and-border-dt",
+  "obsidian-prism-theme@@accent-style-dt": "pt-accent-style-plain-dt",
+  "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-green-dt",
+  "obsidian-prism-theme@@highlight-text-accent-dt": "pt-highlight-text-accent-dt"
 }
