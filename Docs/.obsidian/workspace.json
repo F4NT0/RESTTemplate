@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fa557fd5706e9bdc",
+        "id": "4c8c6b9998e1b529",
         "type": "tabs",
         "children": [
           {
-            "id": "5850af36537bb431",
+            "id": "9923c500d1c73d8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7974e44ff517ffa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,6 +78,7 @@
       {
         "id": "c89e13c7516a4383",
         "type": "tabs",
+        "dimension": 39.825581395348834,
         "children": [
           {
             "id": "137d7f1f1c7f9292",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "README.md"
               }
             }
           },
@@ -149,6 +137,14 @@
               "type": "git-history-view",
               "state": {}
             }
+          },
+          {
+            "id": "6964e70811fa5263",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
@@ -156,6 +152,7 @@
       {
         "id": "9a7788ece2fe16ef",
         "type": "tabs",
+        "dimension": 60.17441860465116,
         "children": [
           {
             "id": "8a0be36e86b61855",
@@ -183,7 +180,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7974e44ff517ffa4",
+  "active": "9923c500d1c73d8a",
   "lastOpenFiles": [
     "README.md",
     "Home.md"
