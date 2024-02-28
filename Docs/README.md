@@ -1,5 +1,6 @@
 # $$\boxed{\color{lightgreen}\mathbb{RESTTemplate \space ASP.NET \space API}}$$
 ---
-##### Welcome to the official documentation about the RESTTemplate ASP.NET REST API!
+##### Bem vindo a documentação oficial do RESTTemplate
 
-This is a simple API to learn how  to create a REST API using the following technologies:
+Como bem diz o nome, esta API é um template de uma API REST feita com ASP.NET no Visual Studio.
+Esse projeto foi desenvolvido
