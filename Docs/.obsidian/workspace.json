@@ -78,7 +78,7 @@
       {
         "id": "c89e13c7516a4383",
         "type": "tabs",
-        "dimension": 39.825581395348834,
+        "dimension": 61.724806201550386,
         "children": [
           {
             "id": "137d7f1f1c7f9292",
@@ -152,7 +152,7 @@
       {
         "id": "9a7788ece2fe16ef",
         "type": "tabs",
-        "dimension": 60.17441860465116,
+        "dimension": 38.275193798449614,
         "children": [
           {
             "id": "8a0be36e86b61855",
@@ -182,7 +182,7 @@
   },
   "active": "9923c500d1c73d8a",
   "lastOpenFiles": [
-    "README.md",
-    "Home.md"
+    "Home.md",
+    "README.md"
   ]
 }
