@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": "#8c00ff",
+    "recentlyUsedIcons": [],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": ".md",
+        "icon": "SiMarkdown",
+        "for": "everything",
+        "order": 0
+      },
+      {
+        "rule": ".png",
+        "icon": "TiPng",
+        "for": "everything",
+        "order": 1
+      },
+      {
+        "rule": ".jpg",
+        "icon": "TiJpg",
+        "for": "everything",
+        "order": 2
+      },
+      {
+        "rule": "folder",
+        "icon": "FasFolder",
+        "for": "everything",
+        "order": 3
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  }
+}
