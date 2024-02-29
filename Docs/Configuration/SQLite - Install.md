@@ -1,4 +1,4 @@
-[Home](Docs/Configuration/README.md)
+[Home](README.md)
 
 ## O que é SQLite?
 ---
