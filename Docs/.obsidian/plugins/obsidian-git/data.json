@@ -1,8 +1,8 @@
 {
   "commitMessage": "New Docs included! {{numFiles}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 5,
-  "autoPushInterval": 30,
+  "autoSaveInterval": 0,
+  "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
   "disablePush": false,

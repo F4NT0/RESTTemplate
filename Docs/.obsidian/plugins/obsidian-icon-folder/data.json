@@ -4,8 +4,10 @@
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "none",
-    "iconColor": "#8c00ff",
-    "recentlyUsedIcons": [],
+    "iconColor": "#ffea00",
+    "recentlyUsedIcons": [
+      "FasFolder"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [
       {
@@ -45,5 +47,6 @@
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":"
-  }
+  },
+  "Desenvolvimento": "FasFolder"
 }
