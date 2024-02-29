@@ -1,4 +1,4 @@
-[Home](Docs/Configuration/README)
+[Home](README.md)
 
 ## Exemplos de uso do SQLite
 ---
