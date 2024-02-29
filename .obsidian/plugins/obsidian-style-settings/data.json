@@ -21,5 +21,8 @@
   "obsidian-prism-theme@@pt-font-disable-ligatures": true,
   "obsidian-prism-theme@@file-line-width": 715,
   "encore-settings@@theme-dark": "encore-theme-dark-iron",
-  "encore-settings@@colors": "encore-colors-colorful"
+  "encore-settings@@colors": "encore-colors-colorful",
+  "TokyoNight@@opacity-translucency-dark": 1,
+  "TokyoNight@@background-primary@@dark": "#000000",
+  "TokyoNight@@background-primary-alt@@dark": "#000000"
 }

@@ -8,3 +8,5 @@
 ---
 
 ## Documentação do projeto
+
+[Página Inicial de Configuração](Configuração/README)
