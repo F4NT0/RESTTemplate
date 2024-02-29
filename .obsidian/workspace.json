@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/README.md",
+                "file": "Docs/Configuração/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/README.md",
+                "file": "Docs/Configuração/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/README.md",
+                "file": "Docs/Configuração/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/README.md"
+                "file": "Docs/Configuração/README.md"
               }
             }
           },
@@ -188,9 +188,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8a0be36e86b61855",
+  "active": "26a526b575773b11",
   "lastOpenFiles": [
+    "Docs/Configuração/SQLite - Instalação.md",
+    "Docs/Configuração/SQLite - Exemplos.md",
+    "Docs/Configuração/README.md",
     "README.md",
+    "Docs/Configuração/Sem título",
     "Docs/README.md",
     "Docs/Arquitetura",
     "Docs/Desenvolvimento",
