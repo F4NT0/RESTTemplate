@@ -53,18 +53,6 @@
     "iconIdentifier": ":"
   },
   "Desenvolvimento": "FasFolder",
-  "Docs/Arquitetura": {
-    "iconName": "TiFolder",
-    "iconColor": "#08f738"
-  },
-  "Docs/Configuração": {
-    "iconName": "TiFolder",
-    "iconColor": "#0de8f8"
-  },
-  "Docs/Desenvolvimento": {
-    "iconName": "TiFolder",
-    "iconColor": "#e70808"
-  },
   "Docs": {
     "iconName": "SiObsidian",
     "iconColor": "#a905f5"
@@ -77,15 +65,27 @@
     "iconName": "TiApi",
     "iconColor": "#fb00ff"
   },
-  "Docs/Configuração/README.md": {
+  "Docs/Configuration": {
+    "iconName": "TiFolder",
+    "iconColor": "#0de8f8"
+  },
+  "Docs/Configuration/README.md": {
     "iconName": "SiMarkdown",
     "iconColor": "#08f3f7"
   },
-  "Docs/Configuração/SQLite - Exemplos.md": {
+  "Docs/Arquitecture": {
+    "iconName": "TiFolder",
+    "iconColor": "#08f738"
+  },
+  "Docs/Development": {
+    "iconName": "TiFolder",
+    "iconColor": "#e70808"
+  },
+  "Docs/Configuration/SQLite-Use.md": {
     "iconName": "SiMarkdown",
     "iconColor": "#08f3f7"
   },
-  "Docs/Configuração/SQLite - Instalação.md": {
+  "Docs/Configuration/SQLite - Install.md": {
     "iconName": "SiMarkdown",
     "iconColor": "#08f3f7"
   }

@@ -9,4 +9,4 @@
 
 ## Documentação do projeto
 
-[Página Inicial de Configuração](Configuração/README)
+[Página Inicial de Configuração](Docs/Configuration/README.md)

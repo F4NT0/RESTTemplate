@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/README.md",
+                "file": "Docs/Configuration/SQLite-Use.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/README.md",
+                "file": "Docs/Configuration/SQLite-Use.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/README.md",
+                "file": "Docs/Configuration/SQLite-Use.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/README.md"
+                "file": "Docs/Configuration/SQLite-Use.md"
               }
             }
           },
@@ -190,15 +190,15 @@
   },
   "active": "26a526b575773b11",
   "lastOpenFiles": [
-    "README.md",
+    "Docs/Configuration/SQLite - Install.md",
+    "Docs/Configuration/SQLite-Use.md",
+    "Docs/Configuration/README.md",
     "Docs/README.md",
-    "Docs/Configuração/SQLite - Instalação.md",
-    "Docs/Configuração/SQLite - Exemplos.md",
-    "Docs/Configuração/README.md",
+    "README.md",
     "Docs/Configuração/Sem título",
-    "Docs/Arquitetura",
-    "Docs/Desenvolvimento",
-    "Docs/Configuração",
+    "Docs/Arquitecture",
+    "Docs/Development",
+    "Docs/Configuration",
     "Desenvolvimento/Ordem de desenvolvimento.md",
     "Desenvolvimento",
     "Home.md"
