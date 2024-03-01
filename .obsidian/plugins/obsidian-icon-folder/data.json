@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": "#ffea00",
     "recentlyUsedIcons": [
+      "TiFolder",
+      "FiFolder",
+      "CoFolder",
       "SiMarkdown",
-      "RiMarkdownLine",
-      "TiApi",
-      "SiPostman",
-      "SiObsidian"
+      "RiMarkdownLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -88,5 +88,9 @@
   "Docs/Configuration/SQLite - Install.md": {
     "iconName": "SiMarkdown",
     "iconColor": "#08f3f7"
+  },
+  "Docs/Configuration/images": {
+    "iconName": "TiFolder",
+    "iconColor": "#0adceb"
   }
 }
