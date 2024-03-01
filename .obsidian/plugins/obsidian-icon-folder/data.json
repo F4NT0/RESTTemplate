@@ -37,6 +37,12 @@
         "icon": "FasFolder",
         "for": "everything",
         "order": 3
+      },
+      {
+        "rule": ".gif",
+        "icon": "TiGif",
+        "for": "everything",
+        "order": 4
       }
     ],
     "extraMargin": {

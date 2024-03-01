@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "162b4f82203d3c26",
+        "id": "e175707b5258de59",
         "type": "tabs",
         "children": [
           {
-            "id": "26a526b575773b11",
+            "id": "9d7f7c1d0839dc07",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       {
         "id": "c89e13c7516a4383",
         "type": "tabs",
-        "dimension": 48.51190476190476,
+        "dimension": 48.51190476190477,
         "children": [
           {
             "id": "137d7f1f1c7f9292",
@@ -160,7 +160,7 @@
       {
         "id": "28c79105f88d1bfe",
         "type": "tabs",
-        "dimension": 51.488095238095234,
+        "dimension": 51.48809523809523,
         "children": [
           {
             "id": "e390f7d7c8a01700",
@@ -188,8 +188,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "26a526b575773b11",
+  "active": "d26a2f66725fa171",
   "lastOpenFiles": [
+    "Docs/Configuration/images/SQLStudioOpenTable.png",
+    "Docs/Configuration/images/SQLiteStudioRunSQLTable.png",
+    "Docs/Configuration/images/SQLiteStudioAddTableCode.png",
+    "Docs/Configuration/images/SQLiteStudioCreateTable.gif",
+    "Docs/Configuration/images/SQLiteStudioOpenSQLEditor.gif",
+    "Docs/Configuration/images/SQLiteStudioAddDatabase3.png",
+    "Docs/Configuration/images/SQLiteStudioAddDatabase2.png",
+    "Docs/Configuration/images/SQLiteStudioAddDatabase1.png",
+    "Docs/README.md",
     "Docs/Configuration/SQLite - Install.md",
     "Docs/Configuration/README.md",
     "Docs/Configuration/SQLite-Use.md",
@@ -197,7 +206,6 @@
     "Docs/Configuration/images/SQLiteConsolePrompt.png",
     "Docs/Configuration/images",
     "Sem título",
-    "Docs/README.md",
     "README.md",
     "Docs/Configuração/Sem título",
     "Docs/Arquitecture",
