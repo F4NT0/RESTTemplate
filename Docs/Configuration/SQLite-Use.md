@@ -4,9 +4,9 @@
 ---
 ### Acessando o SQLite pelo PowerShell
 Acessar pelo prompt de comando somente acessamos a rota `C://sqlite` e rodamos o comando __sqlite3__ diretamente:
-![[SQLiteConsolePrompt.png]]
+![SQLite Console Prompt](images/SQLiteConsolePrompt.png)
 Para acessar pelo Powershell é um pouco diferente, temos que colocar `.\` antes do comando:
-![[SQLitePowershell.png]]
+![SQLite Powershell](images/SQLitePowershell.png)
 ### Comandos mais usados
 Quando colocamos o comando **.help** no console conectados ao SQLite ele nos mostra os tipos de comandos que podemos usar:
 
@@ -53,14 +53,14 @@ Esses comando farão o `sqlite3` finalizar e voltar ao console normal.
 ---
 Com o nosso banco de dados criado, podemos acessar ele pelo GUI do SQLite Studio da seguinte forma:
 1. Abra o SQLiteStudio e clique na opção **Database** no canto superior esquerdo e depois em **Add a database**
-![[SQLiteStudioAddDatabase1.png]]
+![SQLite Studio Add Database 1](images/SQLiteStudioAddDatabase1.png)
 2. Ele vai abrir uma nova tela onde você deve selecionar o arquivo `.db` do banco de dados que criamos no console no passo anterior e escolher a opção de manter ele permanentemente aberto no SQLiteStudio.
 
-![[SQLiteStudioAddDatabase2.png]]
+![SQLite Studio Add Database 2](images/SQLiteStudioAddDatabase2.png)
 3. Podemos testar a conexão com o nosso banco de dados clicando no botão **Test connection** para avaliar se ele consegue acessar.
 4. Agora ele deve mostrar no canto esquerdo os databases disponíveis para acessar.
 
-![[SQLiteStudioAddDatabase3.png]]
+![SQLite Studio Add Database 3](images/SQLiteStudioAddDatabase3.png)
 
 Pronto! com isso podemos interagir com o nosso banco de dados desejado.
 ### Criação de uma tabela
@@ -157,19 +157,19 @@ Todos os nomes das colunas não podem ter nomes maiúsculos e as informações s
 ---
 Para criarmos uma tabela no SQLite Studio primeiro precisamos abrir um editor, para escrevermos nossa query, para isso podemos usar o comando do teclado __Alt + E__ para abrir um editor ou clicar no símbolo do editor no topo do SQLite Studio.
 
-![[SQLiteStudioOpenSQLEditor.gif]]
+![SQLite Studio Open SQL Editor](images/SQLiteStudioOpenSQLEditor.gif)
 
 Agora colamos nosso código em SQL e criamos a tabela.
 
-![[SQLiteStudioCreateTable.gif]]
+![SQLite Studio Create Table](images/SQLiteStudioCreateTable.gif)
 Agora vamos ver passo a passo de como fazer.
 1) Cole no editor de Query a tabela que você deseja criar.
 
-![[SQLiteStudioAddTableCode.png]]
+![](images/SQLiteStudioAddTableCode.png)
 2) Como pode ver não tem nenhuma tabela criada, com isso rode o comando __run__ apresentado como uma seta azul, mas antes verifique se você está no banco de dados correto que você deseja.
-![[SQLiteStudioRunSQLTable.png]]
+![SQLite Studio Run SQL Table](images/SQLiteStudioRunSQLTable.png)
 3) Com isso ele vai criar a tabela e vai mostrar na lista de tabelas ao lado, onde podemos abrir a tabela clicando no nome dela duas vezes.
-![[SQLStudioOpenTable.png]]
+![SQLite Studio Open Table](images/SQLStudioOpenTable.png)
 ### Exportação de Backup
 
 Podemos copiar (criar um dump) com todos os dados que criamos no nosso banco de dados, para isso o SQLite possui um comando chamado __.dump__ que cria uma cópia do banco de dados em um arquivo que dissermos.

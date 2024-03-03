@@ -1,4 +1,4 @@
-aa# $$\boxed{\color{magenta}\mathbb{RESTTemplate \space ASP.NET \space API}}$$
+# $$\boxed{\color{magenta}\mathbb{RESTTemplate \space ASP.NET \space API}}$$
 ---
 ## Bem vindo a documentação oficial do RESTTemplate
 

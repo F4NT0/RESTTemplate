@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Configuration/SQLite-Use.md",
+                "file": "Docs/Configuration/Dotnet - Install.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Configuration/SQLite-Use.md",
+                "file": "Docs/Configuration/Dotnet - Install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Configuration/SQLite-Use.md",
+                "file": "Docs/Configuration/Dotnet - Install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Configuration/SQLite-Use.md"
+                "file": "Docs/Configuration/Dotnet - Install.md"
               }
             }
           },
@@ -188,8 +188,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d26a2f66725fa171",
+  "active": "9d7f7c1d0839dc07",
   "lastOpenFiles": [
+    "Docs/Configuration/README.md",
+    "Docs/Configuration/SQLite - Install.md",
+    "Docs/Configuration/SQLite-Use.md",
+    "Docs/Configuration/Dotnet - Install.md",
+    "Docs/README.md",
+    "Docs/Installations/Como instalar .NET 8.md",
+    "Docs/Installations/README.md",
+    "Docs/Installations",
+    "Sem título",
     "Docs/Configuration/images/SQLStudioOpenTable.png",
     "Docs/Configuration/images/SQLiteStudioRunSQLTable.png",
     "Docs/Configuration/images/SQLiteStudioAddTableCode.png",
@@ -198,14 +207,9 @@
     "Docs/Configuration/images/SQLiteStudioAddDatabase3.png",
     "Docs/Configuration/images/SQLiteStudioAddDatabase2.png",
     "Docs/Configuration/images/SQLiteStudioAddDatabase1.png",
-    "Docs/README.md",
-    "Docs/Configuration/SQLite - Install.md",
-    "Docs/Configuration/README.md",
-    "Docs/Configuration/SQLite-Use.md",
     "Docs/Configuration/images/SQLitePowershell.png",
     "Docs/Configuration/images/SQLiteConsolePrompt.png",
     "Docs/Configuration/images",
-    "Sem título",
     "README.md",
     "Docs/Configuração/Sem título",
     "Docs/Arquitecture",

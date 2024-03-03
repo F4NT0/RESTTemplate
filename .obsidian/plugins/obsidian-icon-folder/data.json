@@ -98,5 +98,9 @@
   "Docs/Configuration/images": {
     "iconName": "TiFolder",
     "iconColor": "#0adceb"
+  },
+  "Docs/Configuration/Dotnet - Install.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#08c7f7"
   }
 }
