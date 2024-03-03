@@ -4,8 +4,10 @@
 ---
 ### Acessando o SQLite pelo PowerShell
 Acessar pelo prompt de comando somente acessamos a rota `C://sqlite` e rodamos o comando __sqlite3__ diretamente:
+
 ![SQLite Console Prompt](images/SQLiteConsolePrompt.png)
 Para acessar pelo Powershell é um pouco diferente, temos que colocar `.\` antes do comando:
+
 ![SQLite Powershell](images/SQLitePowershell.png)
 ### Comandos mais usados
 Quando colocamos o comando **.help** no console conectados ao SQLite ele nos mostra os tipos de comandos que podemos usar:
@@ -53,6 +55,7 @@ Esses comando farão o `sqlite3` finalizar e voltar ao console normal.
 ---
 Com o nosso banco de dados criado, podemos acessar ele pelo GUI do SQLite Studio da seguinte forma:
 1. Abra o SQLiteStudio e clique na opção **Database** no canto superior esquerdo e depois em **Add a database**
+
 ![SQLite Studio Add Database 1](images/SQLiteStudioAddDatabase1.png)
 2. Ele vai abrir uma nova tela onde você deve selecionar o arquivo `.db` do banco de dados que criamos no console no passo anterior e escolher a opção de manter ele permanentemente aberto no SQLiteStudio.
 
@@ -167,6 +170,7 @@ Agora vamos ver passo a passo de como fazer.
 
 ![](images/SQLiteStudioAddTableCode.png)
 2) Como pode ver não tem nenhuma tabela criada, com isso rode o comando __run__ apresentado como uma seta azul, mas antes verifique se você está no banco de dados correto que você deseja.
+
 ![SQLite Studio Run SQL Table](images/SQLiteStudioRunSQLTable.png)
 3) Com isso ele vai criar a tabela e vai mostrar na lista de tabelas ao lado, onde podemos abrir a tabela clicando no nome dela duas vezes.
 ![SQLite Studio Open Table](images/SQLStudioOpenTable.png)
