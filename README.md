@@ -10,10 +10,21 @@
 
 ## Documentação do projeto
 
+<p align="center">
+	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/obsidian_icon.png" width="100">
+</p>
+
+
 Toda a documentação do projeto pode ser baixado este repositório e abrir no programa [Obsidian]([Obsidian - Sharpen your thinking](https://obsidian.md/)) que pode ser baixado [neste link](https://obsidian.md/download).
+
 Caso deseje ver somente a documentação, pode começar vendo pela [página inicial](Docs/README.md) da documentação neste repositório.
 
 ## O que é RESTTemplate
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/csharp.svg" width="100">
+</p>
+
 
 É uma API REST simples com o objetivo de ensinar como construir uma API REST em .NET com C# utilizando o ASP.NET.
 
@@ -36,7 +47,3 @@ Ao usar o ASP.NET, seu código de back-end, como lógica de negócios e acesso a
 O Razor fornece uma sintaxe para criar páginas da Web dinâmicas usando HTML e C#. O código C# é avaliado no servidor e o conteúdo HTML resultante é enviado ao usuário. O código que executa o lado do cliente é escrito em JavaScript. ASP.NET integra-se com estruturas JavaScript e inclui modelos pré-configurados para estruturas spa (aplicativo de página única), como React e Angular.
 
 Como o resto do .NET, o ASP.NET é de código aberto no GitHub. O .NET tem mais de 100,000 contribuições e 3,700 empresas já contribuíram.
-
-<p align="center">
-	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/obsidian_icon" width="100">
-</p>

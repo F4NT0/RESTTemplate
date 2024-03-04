@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Configuration/SQLite-Use.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2847e2e8eb3b6d7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,12 +188,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "2847e2e8eb3b6d7e",
+  "active": "8acf7278dbbd21c4",
   "lastOpenFiles": [
+    "Docs/Configuration/images/obsidian_icon.svg",
+    "README.md",
+    "Docs/Configuration/images/Não confirmado 484573.crdownload",
+    "Docs/Configuration/SQLite-Use.md",
     "Docs/README.md",
     "Docs/Configuration/images/obsidian_icon.png",
-    "Docs/Configuration/SQLite-Use.md",
-    "README.md",
     "Docs/Configuration/images/obsidian icon.png.crdownload",
     "Docs/Configuration/README.md",
     "Docs/Development/README.md",
@@ -225,7 +214,6 @@
     "Docs/Configuration/images/dotnet_install1.png",
     "Docs/Configuration/images/SQLStudioOpenTable.png",
     "Docs/Configuration/images/SQLiteStudioRunSQLTable.png",
-    "Docs/Configuration/images/SQLiteStudioAddTableCode.png",
     "Docs/Configuration/images",
     "Sem título",
     "Docs/Configuração/Sem título",
