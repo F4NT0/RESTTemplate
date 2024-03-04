@@ -1,8 +1,10 @@
 # $$\color{lightgreen}\boxed{\color{magenta}\mathbb{RESTTemplate \space ASP.NET \space API}}$$
 <p align="center">
-	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/csharp.svg">
+	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/csharp.svg" width="100">
 </p>
+
 ---
+
 # Documentação do projeto
 
 Como bem diz o nome, esta API é um template de uma API REST feita com ASP.NET no Visual Studio.

@@ -1,7 +1,13 @@
 [Home](../README.md)
 
 # $$\color{lightblue}\mathbb{Configuration}$$
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/csharp.svg" width="100">
+</p>
+
 ---
+
 Nessa parte iremos configurar nosso sistema para poder rodar o nosso projeto.
 O que precisamos baixar, configurar e utilizar em nosso projeto como um todo.
 

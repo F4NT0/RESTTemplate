@@ -1,5 +1,10 @@
 [Home](../README.md)
 # $$\color{lightgreen}\mathbb{Development}$$
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/csharp.svg" width="100">
+</p>
+
 ---
 
 Nesta parte de nossa documentação irei mostrar como foi desenvolvido parte a parte a nossa API, onde após feito todas as configurações mostradas em [Configuration](https://github.com/F4NT0/RESTTemplate/tree/master/Docs/Configuration) podemos desenvolver nossa simples API.
