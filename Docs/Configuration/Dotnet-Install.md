@@ -1,4 +1,4 @@
-
+[Home](README.md)
 ## Guia de instalação e configuração do .NET 8
 ---
 ### Instalação
@@ -21,3 +21,12 @@ Ele vai começar a instalação e após concluir mostrará opções de documenta
 
 ### Testando a instalação
 
+Assim que concluir a instalação, tente rodar o seguinte comando:
+
+```shell
+dotnet --version
+```
+
+Deve aparecer a versão do .NET, caso não apareça de primeira, reinicie o computador.
+
+![](images/dotnet_version.png)

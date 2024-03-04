@@ -79,28 +79,48 @@
     "iconName": "SiMarkdown",
     "iconColor": "#08f3f7"
   },
-  "Docs/Arquitecture": {
-    "iconName": "TiFolder",
-    "iconColor": "#08f738"
-  },
   "Docs/Development": {
     "iconName": "TiFolder",
-    "iconColor": "#e70808"
-  },
-  "Docs/Configuration/SQLite-Use.md": {
-    "iconName": "SiMarkdown",
-    "iconColor": "#08f3f7"
-  },
-  "Docs/Configuration/SQLite - Install.md": {
-    "iconName": "SiMarkdown",
-    "iconColor": "#08f3f7"
+    "iconColor": "#37f104"
   },
   "Docs/Configuration/images": {
     "iconName": "TiFolder",
     "iconColor": "#0adceb"
   },
-  "Docs/Configuration/Dotnet - Install.md": {
+  "Docs/Development/README.md": {
     "iconName": "SiMarkdown",
-    "iconColor": "#08c7f7"
+    "iconColor": "#06ea15"
+  },
+  "Docs/Development/Model.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#3ded0c"
+  },
+  "Docs/Development/Repository.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#09ec18"
+  },
+  "Docs/Development/Service.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#13f00f"
+  },
+  "Docs/Development/Controller.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#6dfb0e"
+  },
+  "Docs/Configuration/Dotnet-Install.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#00fbff"
+  },
+  "Docs/Configuration/VS-Install.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#00f5e4"
+  },
+  "Docs/Configuration/SQLite-Install.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#08f3f7"
+  },
+  "Docs/Configuration/SQLite-Use.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#08f3f7"
   }
 }

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e175707b5258de59",
+        "id": "6c407684ac3e1b37",
         "type": "tabs",
         "children": [
           {
-            "id": "9d7f7c1d0839dc07",
+            "id": "c63cc36ebd9d3944",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Configuration/Dotnet - Install.md",
+                "file": "Docs/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Configuration/Dotnet - Install.md",
+                "file": "Docs/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Configuration/Dotnet - Install.md",
+                "file": "Docs/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Configuration/Dotnet - Install.md"
+                "file": "Docs/README.md"
               }
             }
           },
@@ -188,29 +188,31 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d26a2f66725fa171",
+  "active": "c63cc36ebd9d3944",
   "lastOpenFiles": [
+    "Docs/Development/README.md",
+    "Docs/Configuration/README.md",
+    "Docs/Configuration/Dotnet-Install.md",
+    "Docs/Configuration/SQLite-Install.md",
+    "Docs/Configuration/VS-Install.md",
+    "Docs/Development/Service.md",
+    "Docs/Development/Repository.md",
+    "Docs/Development/Model.md",
+    "Docs/Development/Controller.md",
+    "Docs/Configuration/SQLite-Use.md",
+    "Docs/Configuration/images/dotnet_version.png",
     "Docs/Configuration/images/dotnet_install4.png",
     "Docs/Configuration/images/dotnet_install3.png",
     "Docs/Configuration/images/dotnet_install2.png",
     "Docs/Configuration/images/dotnet_install1.png",
-    "Docs/Configuration/SQLite-Use.md",
-    "Docs/Configuration/Dotnet - Install.md",
-    "Docs/Configuration/README.md",
-    "Docs/Configuration/SQLite - Install.md",
     "Docs/README.md",
-    "Docs/Installations/Como instalar .NET 8.md",
-    "Docs/Installations/README.md",
-    "Docs/Installations",
-    "Sem título",
     "Docs/Configuration/images/SQLStudioOpenTable.png",
     "Docs/Configuration/images/SQLiteStudioRunSQLTable.png",
     "Docs/Configuration/images/SQLiteStudioAddTableCode.png",
     "Docs/Configuration/images/SQLiteStudioCreateTable.gif",
     "Docs/Configuration/images/SQLiteStudioOpenSQLEditor.gif",
-    "Docs/Configuration/images/SQLiteStudioAddDatabase3.png",
-    "Docs/Configuration/images/SQLiteStudioAddDatabase2.png",
     "Docs/Configuration/images",
+    "Sem título",
     "README.md",
     "Docs/Configuração/Sem título",
     "Docs/Arquitecture",
