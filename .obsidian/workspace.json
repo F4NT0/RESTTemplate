@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6c407684ac3e1b37",
+        "id": "3d196bc91589ec6d",
         "type": "tabs",
         "children": [
           {
-            "id": "c63cc36ebd9d3944",
+            "id": "8acf7278dbbd21c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "Docs/Configuration/SQLite-Use.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2847e2e8eb3b6d7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Development/README.md"
+                "file": "README.md"
               }
             }
           },
@@ -188,20 +201,23 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c63cc36ebd9d3944",
+  "active": "2847e2e8eb3b6d7e",
   "lastOpenFiles": [
-    "Docs/Configuration/README.md",
     "Docs/README.md",
+    "Docs/Configuration/images/obsidian_icon.png",
+    "Docs/Configuration/SQLite-Use.md",
+    "README.md",
+    "Docs/Configuration/images/obsidian icon.png.crdownload",
+    "Docs/Configuration/README.md",
+    "Docs/Development/README.md",
+    "Docs/Development/Model.md",
     "Docs/Configuration/images/csharp.svg",
     "Docs/Configuration/Dotnet-Install.md",
-    "Docs/Development/README.md",
     "Docs/Configuration/SQLite-Install.md",
     "Docs/Configuration/VS-Install.md",
     "Docs/Development/Service.md",
     "Docs/Development/Repository.md",
-    "Docs/Development/Model.md",
     "Docs/Development/Controller.md",
-    "Docs/Configuration/SQLite-Use.md",
     "Docs/Configuration/images/dotnet_version.png",
     "Docs/Configuration/images/dotnet_install4.png",
     "Docs/Configuration/images/dotnet_install3.png",
@@ -210,10 +226,8 @@
     "Docs/Configuration/images/SQLStudioOpenTable.png",
     "Docs/Configuration/images/SQLiteStudioRunSQLTable.png",
     "Docs/Configuration/images/SQLiteStudioAddTableCode.png",
-    "Docs/Configuration/images/SQLiteStudioCreateTable.gif",
     "Docs/Configuration/images",
     "Sem título",
-    "README.md",
     "Docs/Configuração/Sem título",
     "Docs/Arquitecture",
     "Docs/Development",

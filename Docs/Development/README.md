@@ -11,9 +11,9 @@ Nesta parte de nossa documentação irei mostrar como foi desenvolvido parte a p
 
 ## Páginas em ordem
 
-| Página                   | Descrição                                                      |
-| ------------------------ | -------------------------------------------------------------- |
-| [Model](Model)           | Desenvolvimento dos dados dos objetos do projeto               |
-| [Repository](Repository) | Desenvolvimento do acesso ao banco de dados e os métodos CRUD  |
-| [Service](Service)       | Desenvolvimento da lógica de negócio para usar os métodos CRUD |
-| [Controller](Controller) | Desenvolvimento das rotas para fazer requisições               |
+| Página                      | Descrição                                                      |
+| --------------------------- | -------------------------------------------------------------- |
+| [Model](Model.md)           | Desenvolvimento dos dados dos objetos do projeto               |
+| [Repository](Repository.md) | Desenvolvimento do acesso ao banco de dados e os métodos CRUD  |
+| [Service](Service.md)       | Desenvolvimento da lógica de negócio para usar os métodos CRUD |
+| [Controller](Controller.md) | Desenvolvimento das rotas para fazer requisições               |

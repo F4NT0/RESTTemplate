@@ -25,8 +25,8 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## Páginas
 ---
 
-| Página principal                      | Descrição                                                            |
-| ------------------------------------- | -------------------------------------------------------------------- |
-| [Configuration](Configuration/README) | Páginas sobre a instalação e configuração das tecnologias utilizadas |
-| [Development](Development/README)     | Páginas sobre o desenvolvimento das pares do projeto REST básico     |
+| Página principal                         | Descrição                                                            |
+| ---------------------------------------- | -------------------------------------------------------------------- |
+| [Configuration](Configuration/README.md) | Páginas sobre a instalação e configuração das tecnologias utilizadas |
+| [Development](Development/README.md)     | Páginas sobre o desenvolvimento das pares do projeto REST básico     |
 
