@@ -122,5 +122,9 @@
   "Docs/Configuration/SQLite-Use.md": {
     "iconName": "SiMarkdown",
     "iconColor": "#08f3f7"
+  },
+  "Docs/Configuration/ASPNET-VSCreation.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#0bf0f4"
   }
 }
