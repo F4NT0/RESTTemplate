@@ -1,4 +1,8 @@
 # $$\color{lightgreen}\boxed{\color{magenta}\mathbb{RESTTemplate \space ASP.NET \space API}}$$
+<table align="center"><tr><td align="center" width="9999">
+    <img src="Configuration/images/csharp.svg" width="400">
+</td></tr></table>
+
 ---
 # Documentação do projeto
 
