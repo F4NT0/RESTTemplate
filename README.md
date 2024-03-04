@@ -15,9 +15,16 @@
 </p>
 
 
-Toda a documentação do projeto pode ser baixado este repositório e abrir no programa [Obsidian]([Obsidian - Sharpen your thinking](https://obsidian.md/)) que pode ser baixado [neste link](https://obsidian.md/download).
+Toda a documentação do projeto pode ser melhor visualizado no programa [Obsidian](https://obsidian.md/) que pode ser baixado [neste link](https://obsidian.md/download).
 
-Caso deseje ver somente a documentação, pode começar vendo pela [página inicial](Docs/README.md) da documentação neste repositório.
+Quando baixar o programa Obsidian, abra um _vault_ novo com este repositório, ele já vai pegar todas as informações e plugins necessários para ler o projeto.
+
+A página inicial da documentação é a mostrada abaixo:
+
+![Visual do Obsidian](Configuration/images/obsidian_view.png)
+
+
+Caso deseje ver somente a documentação, pode começar vendo pela [página inicial](Docs/README.md) da documentação neste repositório, todos os links e imagens já funcionam pelo próprio Github.
 
 ## O que é RESTTemplate
 

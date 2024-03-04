@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Docs/Configuration/SQLite-Install.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Docs/Configuration/SQLite-Install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Docs/Configuration/SQLite-Install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Docs/Configuration/SQLite-Install.md"
               }
             }
           },
@@ -190,19 +190,20 @@
   },
   "active": "8acf7278dbbd21c4",
   "lastOpenFiles": [
-    "Docs/Configuration/images/obsidian_icon.svg",
-    "README.md",
-    "Docs/Configuration/images/Não confirmado 484573.crdownload",
     "Docs/Configuration/SQLite-Use.md",
+    "Docs/Configuration/SQLite-Install.md",
+    "Docs/Configuration/README.md",
+    "Docs/Configuration/Dotnet-Install.md",
+    "README.md",
+    "Docs/Configuration/images/obsidian_view.png",
     "Docs/README.md",
+    "Docs/Configuration/images/obsidian_icon.svg",
+    "Docs/Configuration/images/Não confirmado 484573.crdownload",
     "Docs/Configuration/images/obsidian_icon.png",
     "Docs/Configuration/images/obsidian icon.png.crdownload",
-    "Docs/Configuration/README.md",
     "Docs/Development/README.md",
     "Docs/Development/Model.md",
     "Docs/Configuration/images/csharp.svg",
-    "Docs/Configuration/Dotnet-Install.md",
-    "Docs/Configuration/SQLite-Install.md",
     "Docs/Configuration/VS-Install.md",
     "Docs/Development/Service.md",
     "Docs/Development/Repository.md",
@@ -213,7 +214,6 @@
     "Docs/Configuration/images/dotnet_install2.png",
     "Docs/Configuration/images/dotnet_install1.png",
     "Docs/Configuration/images/SQLStudioOpenTable.png",
-    "Docs/Configuration/images/SQLiteStudioRunSQLTable.png",
     "Docs/Configuration/images",
     "Sem título",
     "Docs/Configuração/Sem título",
