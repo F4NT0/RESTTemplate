@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Configuration/SQLite-Install.md",
+                "file": "Docs/Configuration/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Configuration/SQLite-Install.md",
+                "file": "Docs/Configuration/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Configuration/SQLite-Install.md",
+                "file": "Docs/Configuration/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Configuration/SQLite-Install.md"
+                "file": "Docs/Configuration/README.md"
               }
             }
           },
@@ -190,13 +190,21 @@
   },
   "active": "8acf7278dbbd21c4",
   "lastOpenFiles": [
-    "Docs/Configuration/SQLite-Use.md",
     "Docs/Configuration/SQLite-Install.md",
+    "Docs/Configuration/SQLite-Use.md",
+    "Docs/Configuration/images/SQLiteStudioOpening.png",
+    "Docs/Configuration/images/SQLiteAccess.png",
+    "Docs/Configuration/images/SQLiteVersionWindows.png",
+    "Docs/Configuration/images/SQLiteStudioAddTableCode.md",
+    "Docs/Configuration/images/SQLiteFolder.png",
+    "README.md",
+    "Docs/Configuration/images/SQLiteStudioAddTableCode 1.png",
     "Docs/Configuration/README.md",
     "Docs/Configuration/Dotnet-Install.md",
-    "README.md",
-    "Docs/Configuration/images/obsidian_view.png",
+    "Docs/Configuration/VS-Install.md",
+    "Docs/Development/Service.md",
     "Docs/README.md",
+    "Docs/Configuration/images/obsidian_view.png",
     "Docs/Configuration/images/obsidian_icon.svg",
     "Docs/Configuration/images/Não confirmado 484573.crdownload",
     "Docs/Configuration/images/obsidian_icon.png",
@@ -204,16 +212,9 @@
     "Docs/Development/README.md",
     "Docs/Development/Model.md",
     "Docs/Configuration/images/csharp.svg",
-    "Docs/Configuration/VS-Install.md",
-    "Docs/Development/Service.md",
     "Docs/Development/Repository.md",
     "Docs/Development/Controller.md",
     "Docs/Configuration/images/dotnet_version.png",
-    "Docs/Configuration/images/dotnet_install4.png",
-    "Docs/Configuration/images/dotnet_install3.png",
-    "Docs/Configuration/images/dotnet_install2.png",
-    "Docs/Configuration/images/dotnet_install1.png",
-    "Docs/Configuration/images/SQLStudioOpenTable.png",
     "Docs/Configuration/images",
     "Sem título",
     "Docs/Configuração/Sem título",

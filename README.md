@@ -21,7 +21,7 @@ Quando baixar o programa Obsidian, abra um _vault_ novo com este repositório, e
 
 A página inicial da documentação é a mostrada abaixo:
 
-![Visual do Obsidian](Configuration/images/obsidian_view.png)
+![Visual do Obsidian](Docs/Configuration/images/obsidian_view.png)
 
 
 Caso deseje ver somente a documentação, pode começar vendo pela [página inicial](Docs/README.md) da documentação neste repositório, todos os links e imagens já funcionam pelo próprio Github.
