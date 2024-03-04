@@ -1,8 +1,7 @@
 # $$\color{lightgreen}\boxed{\color{magenta}\mathbb{RESTTemplate \space ASP.NET \space API}}$$
-<table align="center"><tr><td align="center" width="9999">
-    <img src="Configuration/images/csharp.svg" width="400">
-</td></tr></table>
-
+<p align="center">
+	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/csharp.svg">
+</p>
 ---
 # Documentação do projeto
 
