@@ -20,17 +20,17 @@ Podemos baixar o programa no site oficial: [SQLite Download Page](https://sqlite
 
 Escolha a versão para Windows mostrada abaixo, ela possui o Shell e command line infos para seu computador.
 
-![Versão de Download](Docs/Configuration/images/SQLiteVersionWindows.png)
+![Versão de Download](images/SQLiteVersionWindows.png)
 
 Baixe o .zip e coloque na sua pasta de Downloads, extraia os documentos e renomeie para __sqlite__ e é esperado que você tenha os seguintes documentos:
 
-![Folder gerado](Docs/Configuration/images/SQLiteFolder.png)
+![Folder gerado](images/SQLiteFolder.png)
 
 ### Teste de Instalação
 
 Agora que colocamos o sqlite folder no **C:/** devemos acessar esse diretório pelo seu console windows e rodar o comando **sqlite3** no console:
 
-![Acessando SQLite](Docs/Configuration/images/SQLiteAccess.png)
+![Acessando SQLite](images/SQLiteAccess.png)
 
 Se mostrar a versão do SQLite e acessar o banco significa que foi instalado com sucesso!
 
@@ -44,7 +44,7 @@ Pode baixar a versão portátil pelas opções de __release__ do projeto como ne
 
 Não precisa instalar o programa, nesse caso você extrai todos os arquivos que se encontram no .zip e coloque no diretório que quiser, então somente clique no arquivo **SQLiteStudio.exe** para iniciar o programa, ele deve mostrar a imagem a seguir inicialmente:
 
-![](Docs/Configuration/images/SQLiteStudioOpening.png)
+![](images/SQLiteStudioOpening.png)
 
 
 

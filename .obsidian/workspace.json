@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e8ab5feda69f7c39",
+        "id": "b96d8e47f10f51a1",
         "type": "tabs",
         "children": [
           {
-            "id": "17e177c54280ac58",
+            "id": "294c9fccc91ed517",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Configuration/VS-Install.md",
+                "file": "Docs/Configuration/Dotnet-Install.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Configuration/VS-Install.md",
+                "file": "Docs/Configuration/Dotnet-Install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Configuration/VS-Install.md",
+                "file": "Docs/Configuration/Dotnet-Install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Configuration/VS-Install.md"
+                "file": "Docs/Configuration/Dotnet-Install.md"
               }
             }
           },
@@ -188,25 +188,24 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "17e177c54280ac58",
+  "active": "294c9fccc91ed517",
   "lastOpenFiles": [
-    "Docs/Configuration/images/csharp.svg",
-    "Docs/Configuration/images/vs_install_packagescreen.png",
-    "Docs/Configuration/VS-Install.md",
-    "Docs/Configuration/images/vs_install_space_needed.png",
-    "Docs/Configuration/images/vs_install_installing.png",
-    "Docs/Configuration/images/vs_install_windows_package.png",
-    "Docs/Configuration/images/vs_install_azure_package.png",
-    "Docs/Configuration/images/vs_install_desktop_package.png",
-    "Docs/Configuration/images/vs_install_appui_package.png",
-    "Docs/Configuration/images/vs_install_aspnet_package.png",
-    "Docs/Configuration/images/vs_install_installer.png",
-    "Docs/Configuration/images/vs_install_privacy.png",
-    "Docs/Configuration/ASPNET-VSCreation.md",
-    "Docs/Configuration/Dotnet-Install.md",
-    "Docs/Configuration/README.md",
     "Docs/Configuration/SQLite-Use.md",
     "Docs/Configuration/SQLite-Install.md",
+    "Docs/Configuration/VS-Install.md",
+    "Docs/Configuration/images/vs_install_windows_package.png",
+    "Docs/Configuration/images/vs_install_subscription.png",
+    "Docs/Configuration/images/vs_install_space_needed.png",
+    "Docs/Configuration/images/vs_install_privacy.png",
+    "Docs/Configuration/images/vs_install_packagescreen.png",
+    "Docs/Configuration/images/vs_install_keys.png",
+    "Docs/Configuration/images/vs_install_installing.png",
+    "Docs/Configuration/images/vs_install_installer.png",
+    "Docs/Configuration/images/vs_install_desktop_package.png",
+    "Docs/Configuration/images/vs_install_azure_package.png",
+    "Docs/Configuration/README.md",
+    "Docs/Configuration/Dotnet-Install.md",
+    "Docs/Configuration/ASPNET-VSCreation.md",
     "Docs/Configuration/images/SQLiteStudioAddTableCode.md",
     "README.md",
     "Docs/Development/Service.md",
