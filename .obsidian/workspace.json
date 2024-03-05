@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/README.md",
+                "file": "Docs/Development/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/README.md",
+                "file": "Docs/Development/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/README.md",
+                "file": "Docs/Development/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/README.md"
+                "file": "Docs/Development/README.md"
               }
             }
           },
@@ -190,11 +190,13 @@
   },
   "active": "cd9cd386c6e9756f",
   "lastOpenFiles": [
+    "Docs/Configuration/README.md",
+    "Docs/Development/README.md",
+    "Docs/README.md",
     "Docs/Development/Context.md",
     "Docs/Development/Service.md",
     "Docs/Development/Running.md",
     "Docs/Development/Repository.md",
-    "Docs/Development/README.md",
     "Docs/Development/Model.md",
     "Docs/Configuration/ASPNET-VSCreation.md",
     "Docs/Configuration/SQLite-Use.md",
@@ -212,12 +214,10 @@
     "Docs/Development/images/NugetPackages.png",
     "Docs/Development/images/programcs_database.png",
     "README.md",
-    "Docs/Configuration/README.md",
     "Docs/Configuration/Dotnet-Install.md",
     "Docs/Configuration/VS-Install.md",
     "Docs/Configuration/VS-Theme.md",
     "Docs/Configuration/images/SQLiteStudioAddTableCode.md",
-    "Docs/README.md",
     "Docs/Configuration/images/Não confirmado 484573.crdownload",
     "Docs/Configuration/images/obsidian icon.png.crdownload",
     "Docs/Configuration/images",
