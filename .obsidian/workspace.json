@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b96d8e47f10f51a1",
+        "id": "99f02093604a3d55",
         "type": "tabs",
         "children": [
           {
-            "id": "294c9fccc91ed517",
+            "id": "cd9cd386c6e9756f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Development/Context.md",
+                "file": "Docs/Development/Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Development/Context.md",
+                "file": "Docs/Development/Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Development/Context.md",
+                "file": "Docs/Development/Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Development/Context.md"
+                "file": "Docs/Development/Model.md"
               }
             }
           },
@@ -190,23 +190,25 @@
   },
   "active": "d26a2f66725fa171",
   "lastOpenFiles": [
-    "Docs/Development/images",
-    "Docs/Development/Model.md",
+    "Docs/Development/images/model_person_example.png",
     "Docs/Development/README.md",
+    "Docs/Development/images/ASPNET_AddFolder1.png",
+    "Docs/Development/Model.md",
+    "Docs/Development/images/ASPNET_ClassExample.png",
+    "Docs/Development/images/ASPNET_CreateClass3.png",
+    "Docs/Development/images/ASPNET_CreateClass2.png",
+    "Docs/Development/images/ASPNET_CreateClass1.png",
+    "Docs/Development/images/ASPNET_AddFolder3.png",
+    "Docs/Development/images/ASPNET_AddFolder2.png",
+    "Docs/Development/Context.md",
+    "Docs/Development/Service.md",
     "Docs/Development/Running.md",
     "Docs/Development/Repository.md",
-    "Docs/Development/Context.md",
+    "Docs/Development/Controller.md",
+    "Docs/Development/images",
     "Docs/Development/images/NugetPackages.png",
     "Docs/Development/images/programcs_database.png",
     "Docs/Development/images/appsettings.png",
-    "Docs/Development/images/CreateContextFile.gif",
-    "Docs/Development/images/CreateContextFolder.gif",
-    "Docs/Development/images/ASPNET_EFCorePackageTools.png",
-    "Docs/Development/images/ASPNET_VerifyPackages.png",
-    "Docs/Development/images/ASPNET_InstalledPackage.png",
-    "Docs/Development/images/ASPNET_ManageNugetPackages2.png",
-    "Docs/Development/images/ASPNET_ManageNugetPackages1.png",
-    "Docs/Development/Controller.md",
     "README.md",
     "Docs/Configuration/README.md",
     "Docs/Configuration/Dotnet-Install.md",
@@ -216,7 +218,6 @@
     "Docs/Configuration/VS-Install.md",
     "Docs/Configuration/VS-Theme.md",
     "Docs/Configuration/images/SQLiteStudioAddTableCode.md",
-    "Docs/Development/Service.md",
     "Docs/README.md",
     "Docs/Configuration/images/Não confirmado 484573.crdownload",
     "Docs/Configuration/images/obsidian icon.png.crdownload",

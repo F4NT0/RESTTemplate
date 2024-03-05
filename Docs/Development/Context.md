@@ -1,4 +1,4 @@
-[Home](README)
+[Home](README.md)
 
 # $$\color{lightgreen}\mathbb{Context}$$
 
@@ -65,7 +65,7 @@ Devemos adicionar também o Pacote _Microsoft.EntityFrameworkCore.Tools_ junto c
 
 ### Criando uma classe Context
 
-Agora que instalamos o pacote no projeto, vamos criar sua configuração no nosso projeto, onde iremos criar uma pasta dentro de _Models_ chamada __Context__ onde ficam armazenado as conexões com o banco de dados.
+Agora que instalamos o pacote no projeto, vamos criar sua configuração no nosso projeto, onde iremos criar uma pasta dentro de _Model_ chamada __Context__ onde ficam armazenado as conexões com o banco de dados.
 
 No nosso caso que estamos trabalhando com SQLite, vamos criar uma classe dentro do diretório __Context__ chamado __SQLiteContext__ .
 
