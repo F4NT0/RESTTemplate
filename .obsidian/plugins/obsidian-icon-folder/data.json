@@ -127,5 +127,9 @@
     "iconName": "SiMarkdown",
     "iconColor": "#0bf0f4"
   },
-  "Docs/Configuration/images/csharp.svg": "TiSvg"
+  "Docs/Configuration/images/csharp.svg": "TiSvg",
+  "Docs/Configuration/VS-Theme.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#07f2c3"
+  }
 }
