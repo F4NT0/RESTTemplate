@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": "#ffea00",
     "recentlyUsedIcons": [
+      "TiSvg",
       "TiFolder",
       "FiFolder",
       "CoFolder",
-      "SiMarkdown",
-      "RiMarkdownLine"
+      "SiMarkdown"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -126,5 +126,6 @@
   "Docs/Configuration/ASPNET-VSCreation.md": {
     "iconName": "SiMarkdown",
     "iconColor": "#0bf0f4"
-  }
+  },
+  "Docs/Configuration/images/csharp.svg": "TiSvg"
 }

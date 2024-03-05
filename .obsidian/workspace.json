@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b96d8e47f10f51a1",
+        "id": "e8ab5feda69f7c39",
         "type": "tabs",
         "children": [
           {
-            "id": "294c9fccc91ed517",
+            "id": "17e177c54280ac58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Configuration/ASPNET-VSCreation.md",
+                "file": "Docs/Configuration/VS-Install.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Configuration/ASPNET-VSCreation.md",
+                "file": "Docs/Configuration/VS-Install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Configuration/ASPNET-VSCreation.md",
+                "file": "Docs/Configuration/VS-Install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Configuration/ASPNET-VSCreation.md"
+                "file": "Docs/Configuration/VS-Install.md"
               }
             }
           },
@@ -188,25 +188,26 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "294c9fccc91ed517",
+  "active": "17e177c54280ac58",
   "lastOpenFiles": [
-    "Docs/Configuration/Dotnet-Install.md",
-    "Docs/Configuration/ASPNET-VSCreation.md",
-    "Docs/Configuration/README.md",
-    "Docs/Configuration/images/1_CreateAPI_VS_withoutcode.png",
-    "Docs/Configuration/images/6_CreateAPI_VS_GenerateMethod.png",
-    "Docs/Configuration/images/5_CreateAPI_VS_AditionalInformation.png",
-    "Docs/Configuration/images/4_CreateAPI_VS_ConfigureNP.png",
-    "Docs/Configuration/images/3_CreateAPI_VS_Templates.png",
-    "Docs/Configuration/images/2_CreateAPI_VS_NewProject.png",
+    "Docs/Configuration/images/csharp.svg",
+    "Docs/Configuration/images/vs_install_packagescreen.png",
     "Docs/Configuration/VS-Install.md",
+    "Docs/Configuration/images/vs_install_space_needed.png",
+    "Docs/Configuration/images/vs_install_installing.png",
+    "Docs/Configuration/images/vs_install_windows_package.png",
+    "Docs/Configuration/images/vs_install_azure_package.png",
+    "Docs/Configuration/images/vs_install_desktop_package.png",
+    "Docs/Configuration/images/vs_install_appui_package.png",
+    "Docs/Configuration/images/vs_install_aspnet_package.png",
+    "Docs/Configuration/images/vs_install_installer.png",
+    "Docs/Configuration/images/vs_install_privacy.png",
+    "Docs/Configuration/ASPNET-VSCreation.md",
+    "Docs/Configuration/Dotnet-Install.md",
+    "Docs/Configuration/README.md",
     "Docs/Configuration/SQLite-Use.md",
     "Docs/Configuration/SQLite-Install.md",
-    "Docs/Configuration/images/SQLiteStudioOpening.png",
-    "Docs/Configuration/images/SQLiteAccess.png",
-    "Docs/Configuration/images/SQLiteVersionWindows.png",
     "Docs/Configuration/images/SQLiteStudioAddTableCode.md",
-    "Docs/Configuration/images/SQLiteFolder.png",
     "README.md",
     "Docs/Development/Service.md",
     "Docs/README.md",
