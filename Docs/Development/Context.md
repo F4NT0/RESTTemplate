@@ -140,7 +140,7 @@ Agora que criamos o nosso Context para acessar ao Banco de dados, devemos atuali
 
 No nosso caso passamos uma String com o nome do nosso banco de dados utilizando na string o nome __Data Source__.
 
-Deve ser colocado todo o caminho até o banco de dados, onde no nosso caso quando criamos localmente [nesta documentação](../Configuration/SQLite-Use) ele se encontra no seguinte caminho: _C:\sqlite\db\restemplate.db_ e no _appsettings.json_ sempre que tiver uma barra deve colocar duas, como mostra o exemplo abaixo:
+Deve ser colocado todo o caminho até o banco de dados, onde no nosso caso quando criamos localmente [nesta documentação](../Configuration/SQLite-Use.md) ele se encontra no seguinte caminho: _C:\sqlite\db\restemplate.db_ e no _appsettings.json_ sempre que tiver uma barra deve colocar duas, como mostra o exemplo abaixo:
 
 ```json
 "SQLiteConnection": {

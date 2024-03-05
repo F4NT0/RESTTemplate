@@ -16,9 +16,9 @@ Além disso, em muitos frameworks de desenvolvimento, o Model também pode se re
 
 ### Criando um folder Model
 
-Primeiro devemos criar um folder novo no projeto chamado __Model__ porque ele não vem como padrão quando criamos um [projeto inicial](../Configurarion/ASPNET-VSCreation.md) em ASP.NET.
+Primeiro devemos criar um folder novo no projeto chamado __Model__ porque ele não vem como padrão quando criamos um [projeto inicial](../Configuration/ASPNET-VSCreation.md) em ASP.NET.
 
-Se seguiu o fluxo de documentos, esse folder foi criado na hora de criar uma classe [Context](Context#Criando uma classe Context) mas se não seguiu abaixo mostra como criar:
+Se seguiu o fluxo de documentos, esse folder foi criado na hora de criar uma classe [Context](Context.md#criando-uma-classe-context) mas se não seguiu abaixo mostra como criar:
 
 1) Clique com botão direito encima do projeto no Visual Studio e clique na opção **Add..**
 
@@ -88,6 +88,7 @@ No objeto __Person__ temos os seguintes dados que serão transformados em atribu
 | Sobrenome da pessoa     | LastName       |
 | Endereço da pessoa      | Address        |
 | Gênero da pessoa        | Gender         |
+
 Lembre-se sempre que o inicio dos nomes de atributos em C# são com letra maíuscula e palavras internas também começa com maíusculas.
 
 Tendo isso em mente, toda vez que criamos um atributo devemos dizer que tipo que ele é (int,string,long, etc...) e seu Getter e Setter para buscar o atributo externamente ou altera-lo, e também não esquecer de verificar se ele é público (pode ser acessado por outras classes) ou privado (usado somente dentro da classe onde foi criado).

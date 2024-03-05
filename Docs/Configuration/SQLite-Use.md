@@ -6,6 +6,7 @@
 Acessar pelo prompt de comando somente acessamos a rota `C://sqlite` e rodamos o comando __sqlite3__ diretamente:
 
 ![SQLite Console Prompt](images/SQLiteConsolePrompt.png)
+
 Para acessar pelo Powershell é um pouco diferente, temos que colocar `.\` antes do comando:
 
 ![SQLite Powershell](images/SQLitePowershell.png)
