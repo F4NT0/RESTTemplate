@@ -4,13 +4,13 @@
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "none",
-    "iconColor": "#ffea00",
+    "iconColor": "#2bff00",
     "recentlyUsedIcons": [
-      "TiSvg",
       "TiFolder",
       "FiFolder",
       "CoFolder",
-      "SiMarkdown"
+      "SiMarkdown",
+      "RiMarkdownLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -43,6 +43,18 @@
         "icon": "TiGif",
         "for": "everything",
         "order": 4
+      },
+      {
+        "rule": ".svg",
+        "icon": "TiSvg",
+        "for": "everything",
+        "order": 5
+      },
+      {
+        "rule": ".json",
+        "icon": "TiJson",
+        "for": "everything",
+        "order": 6
       }
     ],
     "extraMargin": {
@@ -127,9 +139,9 @@
     "iconName": "SiMarkdown",
     "iconColor": "#0bf0f4"
   },
-  "Docs/Configuration/images/csharp.svg": "TiSvg",
   "Docs/Configuration/VS-Theme.md": {
     "iconName": "SiMarkdown",
-    "iconColor": "#07f2c3"
-  }
+    "iconColor": "#08e7f7"
+  },
+  "Docs/Development/images": "TiFolder"
 }

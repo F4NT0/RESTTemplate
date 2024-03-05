@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "63a61f0f3239776b",
+        "id": "b96d8e47f10f51a1",
         "type": "tabs",
         "children": [
           {
-            "id": "158f9146f767f062",
+            "id": "294c9fccc91ed517",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Configuration/README.md",
+                "file": "Docs/Development/Context.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Configuration/README.md",
+                "file": "Docs/Development/Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Configuration/README.md",
+                "file": "Docs/Development/Context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Configuration/README.md"
+                "file": "Docs/Development/Context.md"
               }
             }
           },
@@ -188,45 +188,46 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "158f9146f767f062",
+  "active": "d26a2f66725fa171",
   "lastOpenFiles": [
-    "Docs/Configuration/VS-Theme.md",
-    "Docs/Configuration/VS-Install.md",
-    "Docs/Configuration/SQLite-Use.md",
-    "Docs/Configuration/SQLite-Install.md",
-    "Docs/Configuration/README.md",
-    "Docs/Configuration/ASPNET-VSCreation.md",
-    "Docs/Configuration/VS-CreateASPNETProject.md",
-    "Docs/Configuration/images/vs_theme_code.png",
-    "Docs/Configuration/images/vs_theme_dark_default.png",
-    "RESTTemplate/obj/Debug/net8.0/RESTTemplate.csproj.AssemblyReference.cache",
-    "RESTTemplate/obj/Debug/net8.0/RESTTemplate.assets.cache",
-    "RESTTemplate/obj/RESTTemplate.csproj.nuget.dgspec.json",
-    "RESTTemplate/obj/project.nuget.cache",
-    "RESTTemplate/obj/project.assets.json",
-    "RESTTemplate/obj/3836ebc4-e0ea-4350-b334-bfa6a80c42b9.tmp",
-    "RESTTemplate/obj/RESTTemplate.csproj.nuget.g.targets",
-    "RESTTemplate/obj/RESTTemplate.csproj.nuget.g.props",
-    "RESTTemplate/obj/Debug/net8.0/staticwebassets",
-    "RESTTemplate/obj/Debug/net8.0/RESTTemplate.GlobalUsings.g.cs",
-    "Docs/Configuration/images/vs_github_theme.png",
-    "Docs/Configuration/images/vs_themes_options.png",
-    "Docs/Configuration/images/vs_packages_installed.png",
-    "Docs/Configuration/images/vs_show_extensions_to_download.png",
-    "Docs/Configuration/images/vs_theme_selected.png",
-    "Docs/Configuration/images/vs_extension_screen.png",
-    "Docs/Configuration/images/vs_manage_extensions1.png",
-    "Docs/README.md",
-    "Docs/Configuration/images/csharp.svg",
-    "Docs/Configuration/Dotnet-Install.md",
-    "Docs/Configuration/images/SQLiteStudioAddTableCode.md",
-    "README.md",
-    "Docs/Development/Service.md",
-    "Docs/Development/README.md",
+    "Docs/Development/images",
     "Docs/Development/Model.md",
+    "Docs/Development/README.md",
+    "Docs/Development/Running.md",
     "Docs/Development/Repository.md",
+    "Docs/Development/Context.md",
+    "Docs/Development/images/NugetPackages.png",
+    "Docs/Development/images/programcs_database.png",
+    "Docs/Development/images/appsettings.png",
+    "Docs/Development/images/CreateContextFile.gif",
+    "Docs/Development/images/CreateContextFolder.gif",
+    "Docs/Development/images/ASPNET_EFCorePackageTools.png",
+    "Docs/Development/images/ASPNET_VerifyPackages.png",
+    "Docs/Development/images/ASPNET_InstalledPackage.png",
+    "Docs/Development/images/ASPNET_ManageNugetPackages2.png",
+    "Docs/Development/images/ASPNET_ManageNugetPackages1.png",
     "Docs/Development/Controller.md",
+    "README.md",
+    "Docs/Configuration/README.md",
+    "Docs/Configuration/Dotnet-Install.md",
+    "Docs/Configuration/ASPNET-VSCreation.md",
+    "Docs/Configuration/SQLite-Install.md",
+    "Docs/Configuration/SQLite-Use.md",
+    "Docs/Configuration/VS-Install.md",
+    "Docs/Configuration/VS-Theme.md",
+    "Docs/Configuration/images/SQLiteStudioAddTableCode.md",
+    "Docs/Development/Service.md",
+    "Docs/README.md",
+    "Docs/Configuration/images/Não confirmado 484573.crdownload",
+    "Docs/Configuration/images/obsidian icon.png.crdownload",
+    "Docs/Configuration/images",
+    "Sem título",
+    "Docs/Configuração/Sem título",
+    "Docs/Arquitecture",
+    "Docs/Development",
+    "Docs/Configuration",
     "Desenvolvimento/Ordem de desenvolvimento.md",
+    "Desenvolvimento",
     "Home.md"
   ]
 }
