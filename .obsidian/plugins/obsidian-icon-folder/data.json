@@ -143,5 +143,13 @@
     "iconName": "SiMarkdown",
     "iconColor": "#08e7f7"
   },
-  "Docs/Development/images": "TiFolder"
+  "Docs/Development/images": "TiFolder",
+  "Docs/README.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#fbff00"
+  },
+  "README.md": {
+    "iconName": "SiMarkdown",
+    "iconColor": "#ff0000"
+  }
 }

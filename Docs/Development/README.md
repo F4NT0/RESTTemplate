@@ -11,11 +11,12 @@ Nesta parte de nossa documentação irei mostrar como foi desenvolvido parte a p
 
 ## Páginas em ordem
 
-| Página                      | Descrição                                                                | Status |
-| --------------------------- | ------------------------------------------------------------------------ | ------ |
-| [Context](Context.md)       | Configuração do banco de dados no projeto, usando Entity Framework Core. | ✅      |
-| [Model](Model.md)           | Desenvolvimento dos dados dos objetos do projeto                         | ✅      |
-| [Repository](Repository.md) | Desenvolvimento do acesso ao banco de dados e os métodos CRUD            |        |
-| [Service](Service.md)       | Desenvolvimento da lógica de negócio para usar os métodos CRUD           |        |
-| [Controller](Controller.md) | Desenvolvimento das rotas para fazer requisições                         |        |
-| [Running](Running.md)       | Configurando para rodar nosso projeto no Visual Studio.                  |        |
+| Página                              | Descrição                                                                | Status |
+| ----------------------------------- | ------------------------------------------------------------------------ | ------ |
+| [Context](Context.md)               | Configuração do banco de dados no projeto, usando Entity Framework Core. | ✅      |
+| [Model](Model.md)                   | Desenvolvimento dos dados dos objetos do projeto                         | ✅      |
+| [Implementation](Implementation.md) | Desenvolvimento dos métodos de conexão ao banco de dados                 |        |
+| [Repository](Repository.md)         | Desenvolvimento do acesso ao banco de dados e os métodos CRUD            |        |
+| [Service](Service.md)               | Desenvolvimento da lógica de negócio para usar os métodos CRUD           |        |
+| [Controller](Controller.md)         | Desenvolvimento das rotas para fazer requisições                         |        |
+| [Running](Running.md)               | Configurando para rodar nosso projeto no Visual Studio.                  |        |

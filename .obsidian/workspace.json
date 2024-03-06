@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99f02093604a3d55",
+        "id": "9cf26b30bd148db9",
         "type": "tabs",
         "children": [
           {
-            "id": "cd9cd386c6e9756f",
+            "id": "f6e7ce484c393d74",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 278.5
   },
   "right": {
     "id": "6aea06fdcdde5186",
@@ -174,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 453.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,18 +188,20 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "cd9cd386c6e9756f",
+  "active": "f6e7ce484c393d74",
   "lastOpenFiles": [
-    "Docs/Configuration/README.md",
-    "Docs/Development/README.md",
-    "Docs/README.md",
+    "Docs/Development/Implementation.md",
     "Docs/Development/Context.md",
+    "Docs/Development/Model.md",
+    "Docs/README.md",
+    "Docs/Development/README.md",
+    "Docs/Configuration/README.md",
+    "Docs/Configuration/SQLite-Use.md",
+    "Docs/Configuration/VS-Install.md",
     "Docs/Development/Service.md",
     "Docs/Development/Running.md",
     "Docs/Development/Repository.md",
-    "Docs/Development/Model.md",
     "Docs/Configuration/ASPNET-VSCreation.md",
-    "Docs/Configuration/SQLite-Use.md",
     "Docs/Configuration/SQLite-Install.md",
     "Docs/Development/images/model_person_example.png",
     "Docs/Development/images/ASPNET_AddFolder1.png",
@@ -215,7 +217,6 @@
     "Docs/Development/images/programcs_database.png",
     "README.md",
     "Docs/Configuration/Dotnet-Install.md",
-    "Docs/Configuration/VS-Install.md",
     "Docs/Configuration/VS-Theme.md",
     "Docs/Configuration/images/SQLiteStudioAddTableCode.md",
     "Docs/Configuration/images/Não confirmado 484573.crdownload",
