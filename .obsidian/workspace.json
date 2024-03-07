@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "Docs/Development/Repository.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "Docs/Development/Repository.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "Docs/Development/Repository.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Development/README.md"
+                "file": "Docs/Development/Repository.md"
               }
             }
           },
@@ -188,19 +188,30 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f6e7ce484c393d74",
+  "active": "d26a2f66725fa171",
   "lastOpenFiles": [
+    "Docs/Development/README.md",
+    "Docs/Development/Repository.md",
+    "Docs/Development/images/ASPNET_RepositoryPersonInterface.png",
+    "Docs/Development/images/ASPNET_Create_Class.png",
     "Docs/Development/Implementation.md",
+    "Docs/Development/images/ASPNET_Create_Folders2.png",
+    "RESTTemplate/Controller/PersonController.cs",
+    "RESTTemplate/Controller",
+    "RESTTemplate/Service/Implementations/PersonServiceImplementation.cs",
+    "RESTTemplate/Service/IPersonService.cs",
+    "RESTTemplate/Service/Implementations",
+    "RESTTemplate/Service",
+    "Docs/Development/images/ASPNET_CreateFolders.png",
+    "ASPNET_Repository.png",
     "Docs/Development/Context.md",
     "Docs/Development/Model.md",
     "Docs/README.md",
-    "Docs/Development/README.md",
     "Docs/Configuration/README.md",
     "Docs/Configuration/SQLite-Use.md",
     "Docs/Configuration/VS-Install.md",
     "Docs/Development/Service.md",
     "Docs/Development/Running.md",
-    "Docs/Development/Repository.md",
     "Docs/Configuration/ASPNET-VSCreation.md",
     "Docs/Configuration/SQLite-Install.md",
     "Docs/Development/images/model_person_example.png",
@@ -208,13 +219,8 @@
     "Docs/Development/images/ASPNET_ClassExample.png",
     "Docs/Development/images/ASPNET_CreateClass3.png",
     "Docs/Development/images/ASPNET_CreateClass2.png",
-    "Docs/Development/images/ASPNET_CreateClass1.png",
-    "Docs/Development/images/ASPNET_AddFolder3.png",
-    "Docs/Development/images/ASPNET_AddFolder2.png",
     "Docs/Development/Controller.md",
     "Docs/Development/images",
-    "Docs/Development/images/NugetPackages.png",
-    "Docs/Development/images/programcs_database.png",
     "README.md",
     "Docs/Configuration/Dotnet-Install.md",
     "Docs/Configuration/VS-Theme.md",
@@ -222,13 +228,7 @@
     "Docs/Configuration/images/Não confirmado 484573.crdownload",
     "Docs/Configuration/images/obsidian icon.png.crdownload",
     "Docs/Configuration/images",
-    "Sem título",
-    "Docs/Configuração/Sem título",
-    "Docs/Arquitecture",
-    "Docs/Development",
-    "Docs/Configuration",
     "Desenvolvimento/Ordem de desenvolvimento.md",
-    "Desenvolvimento",
     "Home.md"
   ]
 }
