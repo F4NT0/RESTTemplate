@@ -37,6 +37,7 @@ Em **Class...** selecionamos a opção **Interface** e colocamos o nome do nosso
 | Nome do Model | Nome do Service |
 | ------------- | --------------- |
 | Person        | IPersonService  |
+ 
  Essa interface terá a estrutura dos métodos utilizados para receber dados do banco de dados, passando por [Repository](Repository.md) para o Service.
 
 Dai temos os seguintes construtores:
