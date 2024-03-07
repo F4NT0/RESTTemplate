@@ -2,6 +2,13 @@
 
 # $$\color{lightgreen}\mathbb{Implementation}$$
 
+- [Implementation do Repository](Implementation.md#implementation-do-repository)
+	- [Método Create](Implementation.md#metodo-create)
+	- [Método FindbyId e FindAll](Implementation.md#metodo-findbyid-e-findall)
+	- [Método Update](Implementation.md#metodo-update)
+	- [Método Delete](Implementation#metodo-delete)
+
+
 ---
 
 Agora que temos o [Context](Context.md) definido com as regras de conexão ao banco de dados, devemos criar a implementação dos métodos que podemos utilizar no banco de dados.
@@ -114,6 +121,76 @@ $\color{yellow}{\sf \_context.SaveChanges()}$ = Esse método salva nossas modifi
 
 Após salvar (caso não ocorra erros) ele vai retornar o objeto que foi salvo!
 
+#### Método FindbyId e FindAll
+---
+
+Esses são os métodos de leitura de dados do banco de dados, normalmente são os métodos mais usados pelo sistema e pela API, então eles são divididos em duas partes, um método que traz todos os dados existentes (FindAll) e o método que busca somente um objeto procurando pelo ID passado pelo cliente (FindbyId).
+
+A construção do método do FindbyId:
+
+```csharp
+public Person FindbyID(long id)
+{
+    return _context.Persons.SingleOrDefault(p => p.Id.Equals(id));
+}
+```
+
+Aqui temos o método $\color{yellow}{\sf SingleOrDefault}$ junto com uma expressão Lambda que verifica se o ID que entrou é o mesmo que um ID que existe dentro do banco de dados, ele procura e avalia todos os IDs. Assim que encontra o Objeto desejado ele vai retornar esse objeto.
+
+A construção do método do FindAll:
+
+```csharp
+public List<Person> FindAll()
+{
+    return _context.Persons.ToList();
+}
+```
+
+Neste método ele pega do banco de dados todos os dados salvos no banco de dados e entrega em forma de lista.
+
+#### Método Update
+---
+
+A estrutura do método update é o seguinte:
+
+```csharp
+public Person Update(Person person)
+{
+    if (!Exists(person.Id)) return null;
+
+    var result = _context.Persons.SingleOrDefault(p => p.Id.Equals(person.Id));
+
+    if (result != null)
+    {
+        try
+        {
+            _context.Entry(result).CurrentValues.SetValues(person);
+            _context.SaveChanges();
+        }
+        catch (Exception)
+        {
+            throw;
+        }
+    }
+    return person;
+}
+```
+
+O primeiro __if__ serve para verificar se Existe o ID do objeto Person que foi passado como atributo, onde o método Exists foi definido também nesse Repository como:
+
+```csharp
+public bool Exists(long id)
+{
+    return _context.Persons.Any(p => p.Id.Equals(id));
+}
+```
+
+Esse Método __Exists__ procura por qualquer objeto que possui o ID no banco, o método do Context chamado $\color{yellow}{\sf Any}$ diferente do $\color{yellow}{\sf SingleOrDefault}$ que busca um objeto, procura se existe um objeto com o ID e retorna `True` ou `False` após verificar todos os dados.
+
+Após verificar se existe um objeto em banco, caso não tenha retorna nulo ao método, e faz a busca como o do Delete, onde procura o ID no banco e retorna o objeto encontrado a variável __result__.
+
+Para fazer o update, devemos pegar o valor de entrada encontrada no banco usando o método $\color{yellow}{\sf Entry}$ do Context, definimos que ele é o valor atual que está no banco chamando o método $\color{yellow}{\sf CurrentValues}$ e depois definimos o valor com o objeto que entra como parâmetro utilizando o método $\color{yellow}{\sf SetValues}$.
+
 #### Método Delete
 ---
 
@@ -141,6 +218,8 @@ public void Delete(long id)
 
 Esse método recebe como parâmetro o ID do objeto que queremos remover do banco de dados.
 
-A vari
+A variável __result__ utiliza o método $\color{yellow}{\sf SingleOrDefault}$ junto com uma expressão Lambda que verifica se o ID que entrou é o mesmo que um ID que existe dentro do banco de dados, ele procura e avalia todos os IDs.
+
+Dentro do __TRY-CATCH__ tem um método chamado do Context que remove o resultado entregue na variável __result__ que deve ser um objeto Pessoa buscado pelo ID. Após removido ele não retorna nada.
 
 
