@@ -8,6 +8,10 @@
 	- [Método Update](Implementation.md#método-update)
 	- [Método Delete](Implementation#método-delete)
 - [Implementation do Service](Implementation.md#implementation-do-service)
+	- [Método Create do Service](Implementation.md#método-create-do-service)
+	- [Método Update do Service](Implementation.md#método-update-do-service)
+	- [Método Delete do Service](Implementation.md#método-delete-do-service)
+	- [Método ]()
 
 
 ---
@@ -24,9 +28,12 @@ Primeiro devemos criar o folder e as interfaces do [Repository](Repository.md) e
 Agora iremos construir a estrutura base dos métodos que iremos utilizar em nossos Controllers, utilizando o sistema do CRUD, que possui os seguinte items:
 
 $\color{yellow}{\sf Create}$ = utilizamos a requisição HTTP $\color{orange}{\sf POST}$ para criar um objeto no banco de dados, mas na nossa Interface usamos o método $\color{lightblue}{\sf Create(Object \space object)}$ para criarmos um objeto novo no banco de dados.
+
 $\color{yellow}{\sf Read}$ = utilizamos a requisição HTTP $\color{cyan}{\sf GET}$ para buscar um objeto no banco de dados, mas na nossa Interface usamos o método $\color{lightblue}{\sf FindById(long \space id)}$ para procurar por um objeto específico pelo seu ID ou  $\color{lightblue}{\sf FindAll()}$ para procurar por todos os objetos existentes no banco de dados.
+
 $\color{yellow}{\sf Update}$ = utilizamos a requisição HTTP $\color{lightgreen}{\sf PUT}$ para editar um objeto no banco de dados, mas na nossa Interface usamos o método $\color{lightblue}{\sf Update(Object \space object)}$ para atualizarmos um objeto já existente no banco de dados.
-$\color{yellow}{\sf Delete}$ = utilizamos a requisição HTTP $\color{red}{\sf DELETE}$ para criar um objeto no banco de dados, mas na nossa Interface usamos o método $\color{lightblue}{\sf Create(Object object)}$ .
+
+$\color{yellow}{\sf Delete}$ = utilizamos a requisição HTTP $\color{red}{\sf DELETE}$ para criar um objeto no banco de dados, mas na nossa Interface usamos o método $\color{lightblue}{\sf Create(Object object)}$.
 
 Devemos criar um folder chamado __Implementations__ dentro do folder __Repository__ onde iremos definir a lógica dos métodos definidos na interface do [Repository](Repository.md).
 
@@ -38,9 +45,9 @@ Colocamos o nome de __Implementations__
 
 Como estamos criando um Repository do Objeto Person, o nome da nossa implementação deve começar com o nome do objeto, dizer que é de um Repository e dizer que é uma implementação.
 
-| Nome do Model | Nome do Service   | Nome do Implementation         |
-| ------------- | ----------------- | ------------------------------ |
-| Person        | IPersonRepository | PersonRepositoryImplementation |
+| Nome do Model | Nome do Repository | Nome do Implementation         |
+| ------------- | ------------------ | ------------------------------ |
+| Person        | IPersonRepository  | PersonRepositoryImplementation |
 
 Para isso iremos criar uma classe com esse nome da seguinte forma: iremos clicar com o botão direito encima do folder **Implementations** e depois no **Add...** e selecione a opção **Class...**
 
@@ -226,3 +233,142 @@ Dentro do __TRY-CATCH__ tem um método chamado do Context que remove o resultado
 
 ### Implementation do Service
 ---
+Devemos criar um folder chamado __Implementations__ dentro do folder __Service__ onde iremos definir a lógica dos métodos definidos na interface do [Service](Service.md).
+
+![](images/ASPNET_CreateImplementation1.png)
+
+Colocamos o nome de __Implementations__
+
+![](images/ASPNET_CreateImplementation2.png)
+
+Como estamos criando um Service do Objeto Person, o nome da nossa implementação deve começar com o nome do objeto, dizer que é de um Service e dizer que é uma implementação.
+
+| Nome do Model | Nome do Service | Nome do Implementation      |
+| ------------- | --------------- | --------------------------- |
+| Person        | IPersonService  | PersonServiceImplementation |
+
+Para isso iremos criar uma classe com esse nome da seguinte forma: iremos clicar com o botão direito encima do folder **Implementations** e depois no **Add...** e selecione a opção **Class...**
+
+![](images/ASPNET_RepoImp1.png)
+
+Definimos que é do tipo __Class__ e colocamos o nome __PersonServiceImplementation__ ou __PersonRepImp__ caso o nome fique muito grande.
+
+![](images/ASPNET_RepoImp2.png)
+
+Agora que temos nossa classe de implementação, devemos invocar dentro dela a interface que criamos para o nosso Service, com a estrutura base dos métodos que vamos implementar.
+
+```csharp
+// Classe Recém criada
+namespace RESTTemplate.Service.Implementations
+{
+    public class PersonServiceImplementation
+    {
+
+    }
+}
+
+// Classe chamando a interface
+namespace RESTTemplate.Service.Implementations
+{
+    public class PersonServiceImplementation : IPersonService
+    {
+
+    }
+}
+```
+
+Chamar a interface vai mostrar um erro no Visual Studio, porque não foram implementados os métodos construtores definidos na Interface dentro da classe, para isso o Visual Studio mostra como implementar essa funções mais rápido usando o `Quick Fix` como na imagem abaixo:
+
+![](images/ASPNET_ImplementInterface.png)
+Agora que vem a parte diferente do que o Repository, no Service nós buscamos os métodos criados no Repository, mas somente chamamos após fazer validações lógicas.
+
+Vamos chamar no código não o Context, mas sim o Repository criado:
+
+```csharp
+namespace RESTTemplate.Service.Implementations
+{
+    public class PersonServiceImplementation : IPersonService
+    {
+		private readonly IPersonRepository _repository;
+		public PersonServiceImplementation(IPersonRepository personRepository)
+		{
+		    _repository = personRepository;
+		}
+    }
+}
+```
+
+$\color{yellow}{\sf \_repository}$ é a nossa invocação privada da interface Repository que criamos.
+
+Agora todos os métodos de conexão com o banco de dados ficarão somente implementados na classe __PersonRepositoryImplementation__
+
+#### Método Create do Service
+---
+
+O método é simples, chamamos somente o Create do Repository:
+
+```csharp
+public Person Create(Person person)
+{
+	return _repository.Create(person);
+}
+```
+
+Porque criamos esse método? porque dai podemos fazer validações de negócio em nosso método:
+
+```csharp
+public Person Create(Person person)
+{
+	if (person.FirstName != null)
+	{
+		return _repository.Create(person);
+	}
+}
+```
+
+Como o nosso projeto é somente um template, os métodos ficam sem validações por enquanto.
+
+#### Método Update do Service
+---
+
+```csharp
+public Person Update(Person person)
+{
+   return _repository.Update(person);
+}
+```
+
+#### Método Delete do Service
+---
+
+```csharp
+public void Delete(long id)
+{
+    _repository.Delete(id);
+}
+```
+
+#### Método FindAll do Service
+---
+
+```csharp
+public List<Person> FindAll()
+{
+   return _repository.FindAll();
+}
+```
+
+#### Método FindbyId do Service
+---
+
+```csharp
+public Person FindbyID(long id)
+{
+    return _repository.FindbyID(id);
+}
+```
+
+### Configurando o Repository e o Service
+---
+
+Agora que temos tanto o Repository quanto o service criados, devemos chamá-los no projeto.

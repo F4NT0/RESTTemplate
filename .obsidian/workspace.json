@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "Docs/Development/Implementation.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "Docs/Development/Implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "Docs/Development/Implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Development/README.md"
+                "file": "Docs/Development/Implementation.md"
               }
             }
           },
@@ -190,17 +190,18 @@
   },
   "active": "13dc703cc62b57de",
   "lastOpenFiles": [
+    "Docs/Development/README.md",
+    "Docs/Configuration/README.md",
+    "README.md",
     "Docs/Development/Implementation.md",
+    "Docs/Development/Repository.md",
     "Docs/Development/Service.md",
     "Docs/Development/images/ASPNET_ImplementInterface.png",
     "Docs/Development/images/ASPNET_RepoImp2.png",
     "Docs/Development/images/ASPNET_RepoImp1.png",
-    "Docs/Development/Repository.md",
     "Docs/Development/images/ASPNET_CreateImplementation2.png",
     "Docs/Development/images/ASPNET_CreateImplementation1.png",
     "Docs/Development/images/ASPNET_CreateFolderServices.png",
-    "Docs/Configuration/README.md",
-    "Docs/Development/README.md",
     "Docs/Configuration/SQLite-Install.md",
     "Docs/Configuration/SQLite-Use.md",
     "Docs/Configuration/VS-Theme.md",
@@ -222,7 +223,6 @@
     "Docs/Development/Running.md",
     "Docs/Configuration/ASPNET-VSCreation.md",
     "Docs/Development/images",
-    "README.md",
     "Docs/Configuration/Dotnet-Install.md",
     "Docs/Configuration/images/SQLiteStudioAddTableCode.md",
     "Docs/Configuration/images/Não confirmado 484573.crdownload",
