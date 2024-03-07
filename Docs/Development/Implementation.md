@@ -372,3 +372,32 @@ public Person FindbyID(long id)
 ---
 
 Agora que temos tanto o Repository quanto o service criados, devemos chamá-los no projeto.
+
+Abrimos o arquivo __Program.cs__ onde iremos fazer uma coisa chamada $\color{magenta}{\sf Ingeção \space de \space dependência}$ no .NET.
+
+Os passos são:
+
+1) Abrimos o nosso arquivo **Program.cs**
+2) Vamos até o método **ConfigureServices**
+3)  Abaixo de _services.AddControllers();_ iremos adicionar as nossas Services
+4) Para isso iremos usar o método _AddScoped<>_ passando como atributos primeiro o nosso Service com sua Interface e depois a nossa Implementation, como mostra abaixo:
+
+```csharp
+builder.Services.AddScoped<IPersonService, PersonServiceImplementation>();
+```
+
+ ```csharp
+builder.Services.AddScoped<IPersonRepository, PersonRepositoryImplementation>();
+```
+
+O código completo com o Context fica:
+
+```csharp
+var connection = builder.Configuration["SQLiteConnection:SQLiteConnectionString"];
+builder.Services.AddDbContext<SQLiteContext>(options => options.UseSqlite(connection));
+
+builder.Services.AddScoped<IPersonService, PersonServiceImplementation>();
+builder.Services.AddScoped<IPersonRepository, PersonRepositoryImplementation>();
+```
+
+Com isso concluimos as Implementations!
