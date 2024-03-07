@@ -18,15 +18,15 @@ Aqui estão alguns pontos essenciais sobre o padrão Repository:
 
 vamos criar um Repository em nosso projeto, onde vamos criar um diretório novo com o nome Repository e criar a interface para o nosso objeto Person.
 
-![[ASPNET_CreateFolders.png]]
+![](images/ASPNET_CreateFolders.png)
 
 Com o botão direito no novo diretório __Repository__ clicamos em __Add__ e depois __Class...__.
 
-![[ASPNET_Create_Class.png]]
+![](images/ASPNET_Create_Class.png)
 
 Definimos agora uma nova classe do tipo __Interface__ onde o nome de qualquer interface começa com `i`, no nosso exemplo o nome da interface vai ser _IPersonRepository_.
 
-![[ASPNET_RepositoryPersonInterface.png]]
+![](images/ASPNET_RepositoryPersonInterface.png)
 
 Agora vamos construir o modelo dos métodos que iremos utilizar para acessar o banco de dados, onde esses modelos são somente a estrutura base, as intruções que vão ser feitas se encontram nas implementações que faremos depois.
 
@@ -52,7 +52,40 @@ void Delete(long id);
 bool Exists(long id);
 ```
 
+Nossa interface deve estar com o seguinte código:
 
+```csharp
+using RESTTemplate.Model;
 
+namespace RESTTemplate.Repository
+{
+    public interface IPersonRepository
+    {
+        Person Create(Person person);
+        Person FindbyID(long id);
+        List<Person> FindAll();
+        Person Update(Person person);
+        void Delete(long id);
+        bool Exists(long id);
+    }
+}
+```
+
+Toda interface tem a seguinte estrutura:
+
+```csharp
+namespace RESTTemplate.Repository
+{
+    public interface IPersonRepository
+    {
+    }
+}
+```
+
+$\color{yellow}{\sf namespace}$ = namespace serve para organizar um conjunto de classes pelo seu folder definido, no nosso exemplo acima a nossa classe IPersonService faz parte do folder Services da API RESTTemplate.
+
+$\color{yellow}{\sf public}$ = public significa que nossa classe pode ser lidar e utilizada por todo o projeto, sem ser restrito a alguma lugar.
+
+$\color{yellow}{\sf interface}$ = interface mostra que o nosso arquivo é uma interface do C# que podemos escrever os métodos que iremos usar em Controllers. 
 
 
