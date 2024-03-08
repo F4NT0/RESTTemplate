@@ -1,8 +1,7 @@
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/restemplate2.png" width="100">
+	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/restemplate2.png">
 </p>
-
 
 ![](https://img.shields.io/badge/.NET-8-purple)
 ![](https://img.shields.io/badge/ASP.NET-8.0.2-lightblue)
@@ -20,6 +19,8 @@
 
 
 ## Documentação do projeto
+
+Documentação pelo Github: [RESTemplate Docs](Docs/README.md) 
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/obsidian_icon.png" width="100">

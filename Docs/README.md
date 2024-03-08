@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 | Serilog.Sinks.Console  | 5.0.1  |
 | Evolve                 | 3.2.0  |
 
-## Páginas
+## Páginas de documentação
 ---
 
 | Página principal                         | Descrição                                                             |
