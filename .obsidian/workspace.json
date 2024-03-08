@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/README.md"
+                "file": "README.md"
               }
             }
           },
@@ -190,6 +190,7 @@
   },
   "active": "13dc703cc62b57de",
   "lastOpenFiles": [
+    "Docs/README.md",
     "README.md",
     "Docs/Development/Implementation.md",
     "Docs/Development/Model.md",
@@ -215,7 +216,6 @@
     "Docs/Configuration/SQLite-Use.md",
     "Docs/Configuration/VS-Theme.md",
     "Docs/Configuration/VS-Install.md",
-    "Docs/README.md",
     "RESTTemplate/Controller/PersonController.cs",
     "RESTTemplate/Controller",
     "RESTTemplate/Service/Implementations/PersonServiceImplementation.cs",

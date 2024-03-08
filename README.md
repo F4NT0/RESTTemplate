@@ -16,6 +16,9 @@
 	<img src="https://raw.githubusercontent.com/F4NT0/RESTTemplate/master/Docs/Configuration/images/csharp.svg" width="100">
 </p>
 
+RESTemplate é uma API REST criada em ASP.NET e .NET 8 para criar um template simples de um CRUD em .NET.
+
+A ideia é ser simples para poder ser reutilizada em outros projetos, mas é mais meramente entender as partes de um código .NET, irei criar APIs mais robustas com o tempo e vou ensinando o processo de criação de forma mais avançadas.
 
 
 ## Documentação do projeto
@@ -33,4 +36,9 @@ Quando baixar o programa Obsidian, abra um _vault_ novo com este repositório, e
 A página inicial da documentação é a mostrada abaixo:
 
 ![Visual do Obsidian](Docs/Configuration/images/obsidian_view.png)
+
+
+## Rodando o projeto
+
+## Pipeline de deploy
 
