@@ -18,5 +18,5 @@ Nesta parte de nossa documentação irei mostrar como foi desenvolvido parte a p
 | [Repository](Repository.md)         | Desenvolvimento do acesso ao banco de dados e os métodos CRUD            | ✅      |
 | [Service](Service.md)               | Desenvolvimento da lógica de negócio para usar os métodos CRUD           | ✅      |
 | [Implementation](Implementation.md) | Desenvolvimento dos métodos de conexão ao banco de dados                 | ✅      |
-| [Controller](Controller.md)         | Desenvolvimento das rotas para fazer requisições                         |        |
+| [Controller](Controller.md)         | Desenvolvimento das rotas para fazer requisições                         | ✅      |
 | [Running](Running.md)               | Configurando para rodar nosso projeto no Visual Studio.                  |        |

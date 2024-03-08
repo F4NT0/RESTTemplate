@@ -11,8 +11,9 @@
 	- [Método Create do Service](Implementation.md#método-create-do-service)
 	- [Método Update do Service](Implementation.md#método-update-do-service)
 	- [Método Delete do Service](Implementation.md#método-delete-do-service)
-	- [Método ]()
-
+	- [Método FindAll do Service](Implementation.md#método-findall-do-service)
+	- [Método FindbyId do Service](Implementation.md#método-findbyid-do-service)
+* [Configurando o Repository e o Service](Implementation.md#configurando-o-repository-e-o-service)
 
 ---
 

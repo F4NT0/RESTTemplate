@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/Development/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/Development/README.md"
+                "file": "README.md"
               }
             }
           },
@@ -174,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,12 +190,20 @@
   },
   "active": "13dc703cc62b57de",
   "lastOpenFiles": [
-    "Docs/Development/Implementation.md",
-    "Docs/Development/Context.md",
+    "Docs/Configuration/images/restemplate2.png",
     "Docs/Development/README.md",
+    "Docs/Development/Running.md",
+    "Docs/Development/Repository.md",
+    "Docs/Development/Model.md",
+    "Docs/Development/Implementation.md",
+    "Docs/Development/Controller.md",
+    "Docs/Development/Context.md",
+    "Docs/Development/images/ASPNET_ChangeLaunchSettings.png",
+    "RESTTemplate/Controller/StatusController.cs",
+    "Docs/Development/images/ASPNET_Controller_Person.png",
+    "Docs/Development/images/ASPNET_Controller_Add.png",
     "Docs/Configuration/README.md",
     "README.md",
-    "Docs/Development/Repository.md",
     "Docs/Development/Service.md",
     "Docs/Development/images/ASPNET_ImplementInterface.png",
     "Docs/Development/images/ASPNET_RepoImp2.png",
@@ -207,27 +215,20 @@
     "Docs/Configuration/SQLite-Use.md",
     "Docs/Configuration/VS-Theme.md",
     "Docs/Configuration/VS-Install.md",
-    "Docs/Development/Model.md",
-    "Docs/Development/Controller.md",
     "Docs/README.md",
     "Docs/Development/images/ASPNET_RepositoryPersonInterface.png",
-    "Docs/Development/images/ASPNET_Create_Class.png",
-    "Docs/Development/images/ASPNET_Create_Folders2.png",
     "RESTTemplate/Controller/PersonController.cs",
     "RESTTemplate/Controller",
     "RESTTemplate/Service/Implementations/PersonServiceImplementation.cs",
     "RESTTemplate/Service/IPersonService.cs",
     "RESTTemplate/Service/Implementations",
     "RESTTemplate/Service",
-    "Docs/Development/images/ASPNET_CreateFolders.png",
-    "Docs/Development/Running.md",
     "Docs/Configuration/ASPNET-VSCreation.md",
     "Docs/Development/images",
     "Docs/Configuration/Dotnet-Install.md",
     "Docs/Configuration/images/SQLiteStudioAddTableCode.md",
     "Docs/Configuration/images/Não confirmado 484573.crdownload",
     "Docs/Configuration/images/obsidian icon.png.crdownload",
-    "Docs/Configuration/images",
     "Desenvolvimento/Ordem de desenvolvimento.md",
     "Home.md"
   ]
